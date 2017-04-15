@@ -1,0 +1,392 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42a47fcc66ddf2e4d9c02364bcd98595, type: 3}
+  m_Name: DataStat
+  m_EditorClassIdentifier: 
+  planets:
+  - id: sun
+    physical:
+      radius: 696342
+      scheme: {r: 1, g: 0.4634212, b: 0.08823532, a: 1}
+    orbital:
+      rotation: 25
+      periode: 1
+      perihelion: 0
+      distance_: 0
+      tilt: 0
+      inclination: 0
+      eccentricity: 0
+      long_ascend: 0
+    moons: []
+  - id: mercury
+    physical:
+      radius: 2439.7
+      scheme: {r: 1, g: 0.19852942, b: 0.48042598, a: 1}
+    orbital:
+      rotation: 58.646
+      periode: 0.24
+      perihelion: 4.6
+      distance_: 7
+      tilt: 0.1
+      inclination: 7
+      eccentricity: 0.206
+      long_ascend: 48.33
+    moons: []
+  - id: venus
+    physical:
+      radius: 6051.8
+      scheme: {r: 1, g: 0.83608603, b: 0.53676474, a: 1}
+    orbital:
+      rotation: 243.018
+      periode: 0.615
+      perihelion: 1.074
+      distance_: 8
+      tilt: 177
+      inclination: 3.3
+      eccentricity: 0.006
+      long_ascend: 76.67
+    moons: []
+  - id: earth
+    physical:
+      radius: 6378.1
+      scheme: {r: 0.16334401, g: 0.4928047, b: 0.984, a: 1}
+    orbital:
+      rotation: 0.997
+      periode: 1
+      perihelion: 1.47
+      distance_: 8
+      tilt: 23
+      inclination: 0.02
+      eccentricity: 0.006
+      long_ascend: 349
+    moons:
+    - id: moon
+      radius: 1737.1
+      periode: 27.321
+      perihelion: 3.626
+      distance_: 5
+      inclination: 1.5424
+      eccentricity: 0.0549
+      scheme: {r: 0.66176474, g: 0.9938503, b: 1, a: 1}
+  - id: mars
+    physical:
+      radius: 3396.2
+      scheme: {r: 0.9705882, g: 0.28148308, b: 0.16414358, a: 1}
+    orbital:
+      rotation: 1.025
+      periode: 1.88
+      perihelion: 2.067
+      distance_: 8
+      tilt: 25
+      inclination: 1.85
+      eccentricity: 0.1
+      long_ascend: 49.6
+    moons:
+    - id: phobos
+      radius: 11.266
+      periode: 0.3189
+      perihelion: 9.234
+      distance_: 3
+      inclination: 26.04
+      eccentricity: 0.015
+      scheme: {r: 1, g: 0.6842105, b: 0.4385965, a: 1}
+    - id: deimos
+      radius: 6.2
+      periode: 1.263
+      perihelion: 2.3455
+      distance_: 4
+      inclination: 27.58
+      eccentricity: 0
+      scheme: {r: 1, g: 0.79591733, b: 0.6397059, a: 1}
+  - id: ceres
+    physical:
+      radius: 481.5
+      scheme: {r: 0.5805781, g: 0.78676474, b: 0, a: 1}
+    orbital:
+      rotation: 0.378
+      periode: 4.6
+      perihelion: 3.826
+      distance_: 8
+      tilt: 3
+      inclination: 10
+      eccentricity: 0.08
+      long_ascend: 76.67
+    moons: []
+  - id: jupiter
+    physical:
+      radius: 71492
+      scheme: {r: 0.891, g: 0.59737504, b: 0.31387502, a: 1}
+    orbital:
+      rotation: 0.413
+      periode: 11.861
+      perihelion: 7.405
+      distance_: 8
+      tilt: 3
+      inclination: 1.3
+      eccentricity: 0.048
+      long_ascend: 101
+    moons:
+    - id: io
+      radius: 1821.6
+      periode: 1.769
+      perihelion: 4.2
+      distance_: 5
+      inclination: 2.213
+      eccentricity: 0.0041
+      scheme: {r: 0.747, g: 0.5267029, b: 0.141183, a: 1}
+    - id: europa
+      radius: 1560.8
+      periode: 3.5511
+      perihelion: 6.64862
+      distance_: 5
+      inclination: 1.791
+      eccentricity: 0.009
+      scheme: {r: 0.89, g: 0.735086, b: 0.57049, a: 1}
+    - id: ganymede
+      radius: 2634.1
+      periode: 7.1545
+      perihelion: 1.0692
+      distance_: 6
+      inclination: 2.214
+      eccentricity: 0.0013
+      scheme: {r: 0.552, g: 0.4563006, b: 0.349968, a: 1}
+    - id: callisto
+      radius: 2410.3
+      periode: 16.689
+      perihelion: 1.869
+      distance_: 6
+      inclination: 2.017
+      eccentricity: 0.0074
+      scheme: {r: 0.859, g: 0.728906, b: 0.54460603, a: 1}
+  - id: saturn
+    physical:
+      radius: 58232
+      scheme: {r: 0.30425963, g: 1, b: 0.2794118, a: 1}
+    orbital:
+      rotation: 0.444
+      periode: 29.457
+      perihelion: 1.353
+      distance_: 9
+      tilt: 26.7
+      inclination: 2.48
+      eccentricity: 0.055
+      long_ascend: 114
+    moons:
+    - id: mimas
+      radius: 198.2
+      periode: 0.942
+      perihelion: 1.81902
+      distance_: 5
+      inclination: 28.274
+      eccentricity: 0.0202
+      scheme: {r: 0.8352942, g: 0.74509805, b: 0.5803922, a: 1}
+    - id: enceladus
+      radius: 252.1
+      periode: 1.3702
+      perihelion: 2.37948
+      distance_: 5
+      inclination: 26.719
+      eccentricity: 0.0047
+      scheme: {r: 0.47843137, g: 0.75686276, b: 0.89411765, a: 1}
+    - id: tethys
+      radius: 531.1
+      periode: 1.8878
+      perihelion: 2.94619
+      distance_: 5
+      inclination: 27.82
+      eccentricity: 0.0001
+      scheme: {r: 0.74264705, g: 0.72939086, b: 0.62251294, a: 1}
+    - id: dione
+      radius: 561.4
+      periode: 2.7369
+      perihelion: 3.77396
+      distance_: 5
+      inclination: 26.719
+      eccentricity: 0.0022
+      scheme: {r: 0.8732833, g: 0.8897059, b: 0.71961504, a: 1}
+    - id: rhea
+      radius: 763.8
+      periode: 4.5182
+      perihelion: 5.27108
+      distance_: 5
+      inclination: 27.045
+      eccentricity: 0.0012583
+      scheme: {r: 0.9044118, g: 0.73815966, b: 0.73815966, a: 1}
+    - id: titan
+      radius: 2575.5
+      periode: 15.945
+      perihelion: 1.18668
+      distance_: 6
+      inclination: 27.04854
+      eccentricity: 0.0288
+      scheme: {r: 1, g: 0.87025124, b: 0.43382353, a: 1}
+    - id: iapetus
+      radius: 734.5
+      periode: 79.32
+      perihelion: 3.56082
+      distance_: 6
+      inclination: 42.17
+      eccentricity: 0.02861
+      scheme: {r: 0.9044118, g: 0.3014706, b: 0, a: 1}
+  - id: uranus
+    physical:
+      radius: 25559
+      scheme: {r: 0.19852942, g: 0.94424564, b: 1, a: 1}
+    orbital:
+      rotation: 0.718
+      periode: 84.016
+      perihelion: 2.735
+      distance_: 9
+      tilt: 97.7
+      inclination: 2.48
+      eccentricity: 0.047
+      long_ascend: 74.2
+    moons:
+    - id: miranda
+      radius: 235.8
+      periode: 1.4134
+      perihelion: 1.2939
+      distance_: 5
+      inclination: 101.932
+      eccentricity: 0.0013
+      scheme: {r: 0.678, g: 0.27643025, b: 0.209502, a: 1}
+    - id: ariel
+      radius: 578.9
+      periode: 2.52
+      perihelion: 1.9102
+      distance_: 5
+      inclination: 97.96
+      eccentricity: 0.0012
+      scheme: {r: 0.019139292, g: 0.86764705, b: 0.8676469, a: 1}
+    - id: umbriel
+      radius: 584.7
+      periode: 4.144
+      perihelion: 2.66
+      distance_: 5
+      inclination: 97.828
+      eccentricity: 0.0039
+      scheme: {r: 1, g: 0.73630834, b: 0.04411763, a: 1}
+    - id: titania
+      radius: 788.4
+      periode: 8.70623
+      perihelion: 4.3591
+      distance_: 5
+      inclination: 98.04
+      eccentricity: 0.0011
+      scheme: {r: 0.89705884, g: 0, b: 0.16703847, a: 1}
+    - id: oberon
+      radius: 761.4
+      periode: 13.4632
+      perihelion: 5.8352
+      distance_: 5
+      inclination: 97.758
+      eccentricity: 0.0014
+      scheme: {r: 0.203, g: 0.18330899, b: 0.18330899, a: 1}
+  - id: neptune
+    physical:
+      radius: 24764
+      scheme: {r: 0.03781879, g: 0.03676468, b: 1, a: 1}
+    orbital:
+      rotation: 0.67
+      periode: 164.79
+      perihelion: 4.459
+      distance_: 9
+      tilt: 30
+      inclination: 1.77
+      eccentricity: 0.01
+      long_ascend: 131
+    moons:
+    - id: triton
+      radius: 1353.4
+      periode: -5.87685
+      perihelion: 3.54759
+      distance_: 5
+      inclination: 129.812
+      eccentricity: 0.00001
+      scheme: {r: 0.21707398, g: 0.27951995, b: 0.4044118, a: 1}
+  - id: pluto
+    physical:
+      radius: 1184
+      scheme: {r: 0.922, g: 0.831163, b: 0.637102, a: 1}
+    orbital:
+      rotation: 6.387
+      periode: 247.68
+      perihelion: 4.437
+      distance_: 9
+      tilt: 120
+      inclination: 11.88
+      eccentricity: 0.244
+      long_ascend: 76.67
+    moons:
+    - id: charon
+      radius: 603.5
+      periode: 6.3872
+      perihelion: 1.7536
+      distance_: 4
+      inclination: 112.783
+      eccentricity: 0
+      scheme: {r: 0.618, g: 0.5333424, b: 0.44868493, a: 1}
+  - id: haumea
+    physical:
+      radius: 650
+      scheme: {r: 0.035034586, g: 0.7941176, b: 0.48001432, a: 1}
+    orbital:
+      rotation: 0.167
+      periode: 285.4
+      perihelion: 5.228
+      distance_: 9
+      tilt: 360
+      inclination: 28.19
+      eccentricity: 0.188
+      long_ascend: 76.67
+    moons: []
+  - id: makemake
+    physical:
+      radius: 715
+      scheme: {r: 0.9725491, g: 0.34914514, b: 0.6457994, a: 1}
+    orbital:
+      rotation: 0.32
+      periode: 309.9
+      perihelion: 5.773
+      distance_: 9
+      tilt: 360
+      inclination: 29
+      eccentricity: 0.159
+      long_ascend: 76.67
+    moons: []
+  - id: eris
+    physical:
+      radius: 1163
+      scheme: {r: 0.8602941, g: 0, b: 0, a: 1}
+    orbital:
+      rotation: 1.07
+      periode: 247.68
+      perihelion: 5.723
+      distance_: 9
+      tilt: 360
+      inclination: 44.044
+      eccentricity: 0.44
+      long_ascend: 76.67
+    moons: []
+  - id: sedna
+    physical:
+      radius: 525.8
+      scheme: {r: 0.747, g: 0.18450898, b: 0.18450898, a: 0.984}
+    orbital:
+      rotation: 0.42
+      periode: 12059
+      perihelion: 1.14
+      distance_: 10
+      tilt: 360
+      inclination: 11.93
+      eccentricity: 0.85
+      long_ascend: 76.67
+    moons: []

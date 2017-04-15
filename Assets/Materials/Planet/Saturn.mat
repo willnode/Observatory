@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Saturn
+  m_Shader: {fileID: 4800000, guid: e8def35a7fe84714095680d3db50de7a, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+    - first:
+        name: _BumpMap
+      second:
+        m_Texture: {fileID: 2800000, guid: b40bb89afddef5b4c8df428dd5c4d0f3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _MainTex
+      second:
+        m_Texture: {fileID: 2800000, guid: b5385a230718c694a8cd51fbb62809d6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - first:
+        name: _Falloff
+      second: 4.21
+    - first:
+        name: _Falloff2
+      second: 0
+    - first:
+        name: _Falloff3
+      second: 0.301
+    - first:
+        name: _FalloffPlanet
+      second: 0.55
+    - first:
+        name: _Parallax
+      second: 0.02
+    - first:
+        name: _RimAbs
+      second: 3
+    - first:
+        name: _RimPower
+      second: 1
+    - first:
+        name: _Shininess
+      second: 0.029
+    - first:
+        name: _Size
+      second: 1.13
+    - first:
+        name: _Transparency
+      second: 12.61
+    - first:
+        name: _TransparencyPlanet
+      second: 1
+    m_Colors:
+    - first:
+        name: _AtmoColor
+      second: {r: 0.909804, g: 0.8117648, b: 0.6509804, a: 1}
+    - first:
+        name: _Color
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _RimColor
+      second: {r: 0.516, g: 0.44441283, b: 0.3262941, a: 1}
+    - first:
+        name: _SpecColor
+      second: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - first:
+        name: _Tint
+      second: {r: 1, g: 1, b: 1, a: 1}

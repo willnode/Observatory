@@ -1,0 +1,1776 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bdb6f1395f2d1a643978ce00e627a052, type: 3}
+  m_Name: DataDetail
+  m_EditorClassIdentifier: 
+  metadata:
+    TimeScaleNames:
+    - Berhenti
+    - Waktu Nyata
+    - 1 Menit/Detik
+    - 1 Jam/Detik
+    - 1 Hari/Detik
+    - 1 Minggu/Detik
+    - 1 Bulan/Detik
+    - 6 Bulan/Detik
+    - 4 Tahun/Detik
+    - 40 Tahun/Detik
+    SlotCounts: 0100000005000000040000000400000001000000
+    SlotDistances:
+    - 15
+    - 150
+    - 2500
+    - 7000
+    - 50000
+    SlotCaptions:
+    - Matahari
+    - Planet Dalam
+    - Planet Luar
+    - Trans-neptunian
+    - Cakram Bias
+  planets:
+  - id: sun
+    name: Matahari
+    points:
+    - head: Ciri Fisik
+      body: Matahari adalah satu-satunya Bintang (bola raksasa yang berpijar) dan
+        terletak di pusat sistem Tata surya kita. permukaannya membara dan menghasilkan
+        cahaya dari berbagai spektrum dan angin surya. Matahari itu 109 kali lebih
+        besar dan 330.000 kali lebih berat dari Bumi. Massa tersebut sangat besar
+        bahkan mengisi 99.86% massa seluruh benda di Tata surya.
+      images:
+      - path: sun/The_Sun_by_the_Atmospheric_Imaging_Assembly_of_NASA's_Solar_Dynamics_Observatory_-_20100819
+        wikiLink: The_Sun_by_the_Atmospheric_Imaging_Assembly_of_NASA's_Solar_Dynamics_Observatory_-_20100819.jpg
+        caption: Matahari terlihat di Angkasa. Bagian luarnya terlihat pancaran yang
+          disebut sebagai <i>Korona</i>.
+    - head: Pengamatan Dari Bumi
+      body: Matahari adalah Bintang, namun dengan jarak 150 juta km jauhnya, di bumi
+        ia mempunyai magnitudo tampak -27, atau 13.000.000.000 kali lebih terang dari
+        bintang tercerah kedua, Sirius. Matahari itu sangat terang bahkan menciptakan
+        fase siang dan malam di permukaan Bumi. Selain itu, ia juga merupakan sumber
+        energi makhluk hidup yang paling utama, dan mengendalikan aktivitas cuaca
+        dipermukaan Bumi.
+      images:
+      - path: sun/Anatomy_of_a_Sunset-2
+        wikiLink: Anatomy_of_a_Sunset-2.jpg
+        caption: Matahari Terbenam di Bumi. Kali ini ia membuat langit menguning sebelum
+          menjadi gelap.
+      - path: sun/STS-134_EVA4_view_to_the_Russian_Orbital_Segment
+        wikiLink: STS-134_EVA4_view_to_the_Russian_Orbital_Segment.jpg
+        caption: Matahari di Angkasa, ia terlihat putih karena tak ada atmosfir di
+          angkasa.
+    - head: Komposisi
+      body: sebanyak 74% massa Matahari terdiri atas Hidrogen, dan 25% atas Helium,
+        sisanya adalah sejenis logam berat. Didalam inti Matahari terdapat Reaksi
+        yang memfusi hidrogen dan mengubahnya menjadi helium dan energi, dan mempunyai
+        suhu sekitar 15 Juta Kelvin. Diluar inti terdapat zona radiatif dimana energi
+        dikeluarkan menjauh dengan cara radiasi dan zona konveksi dimana energi dikeluarkan
+        melalui konveksi.
+      images:
+      - path: sun/Sun_poster.svg
+        wikiLink: Sun_poster.svg
+        caption: Anatomi dan Struktur Matahari. Fitur diluar matahari juga tergambar
+          secara lengkap.
+      - path: sun/FusionintheSun.svg
+        wikiLink: FusionintheSun.svg
+        caption: Diagram proses Fusi Hidrogen yang mengubah Hidrogen menjadi Helium
+          dan Energi, yang terjadi pada Inti Matahari.
+    - head: Masa Depan Matahari
+      body: Pada inti Matahari, terdapat reaksi fusi dimana hidrogen diubah menjadi
+        helium dan energi. Energi tersebut  dibawa ke permukaan, sedangkan helium
+        tetap disekitar bola Matahari. Setiap detik, sekitar 620 juta ton hidrogen
+        habis terfusi menjadi Helium, sehingga sekitar 5 milyar tahun kedepan, Hidrogen
+        tersebut Habis, dan matahari akan membengkak sebelum meledak 1.5 milyar tahun
+        kemudian
+      images:
+      - path: sun/Solar_Life_Cycle.svg
+        wikiLink: Solar_Life_Cycle.svg
+        caption: Rentang waktu Matahari dalam Milyaran tahun kedepan. Saat ini ia
+          berumur 4,5 milyar tahun dan masih berkembang hingga saat ini.
+      - path: sun/Sun_red_giant.svg
+        wikiLink: Sun_red_giant.svg
+        caption: Perkiraan Ukuran Matahari sebelum dan setelah membengkak dalam bentuk
+          Merah Raksasa pada kurun 5 milyar tahun kedepan.
+    - head: Permukaan
+      body: Permukaan Matahari dinamakan Fotosfer, dan Atmosfernya dinamakan sebagai
+        Korona. Fotosfer dapat terlihat diangkasa, dan Korona dan dapat jelas terlihat
+        saat gerhana matahari Total. Fotosfer mempunyai suhu sekitar 4500-6000 K,
+        sedangkan korona hampir mendekati 1 juta K. Korona terdiri atas partikel-partikel
+        ion Hidrogen, dan sejumlah energi yang cukup besar. Di atas fotosfer terdapat
+        Prominensa, yaitu pancaran api raksasa sebsar ratusan kali Bumi. Beberapa
+        bintik matahari juga bisa dilihat dibeberapa titik permukaannya.
+      images:
+      - path: sun/Sun_white
+        wikiLink: Sun_white.jpg
+        caption: Matahari dengan Filter warna Putih. Ia terlihat putih mulus dengan
+          beberapa Bintik Matahari yang aktif di masa pengambilan gambar.
+      - path: sun/Giant_prominence_on_the_sun_erupted
+        wikiLink: Giant_prominence_on_the_sun_erupted.jpg
+        caption: Foto jarak dekat Erupsi Prominensa Matahari. Ingat bahwa ia bisa
+          berukuran hingga ratusan kali dari Bumi.
+      - path: sun/172197main_NASA_Flare_Gband_lg-withouttext
+        wikiLink: 172197main_NASA_Flare_Gband_lg-withouttext.jpg
+        caption: Foto jarak dekat Bintik Matahari. Ingat ia selalu muncul berpasangan
+          dan dalam rentang waktu yang sangat singkat.
+      - path: sun/Solar_eclipse_1999_4_NR
+        wikiLink: Solar_eclipse_1999_4_NR.jpg
+        caption: Korona (Putih) dan Prominensa (Merah) dapat terlihat dari Bumi saat
+          Gerhana Matahari Penuh.
+    - head: Angin Surya
+      body: "Matahari mengeluarkan energi dalam bentuk plasma. Plasma inilah yang
+        disebut sebagai Angin surya, dan ia tersusun atas elektron, proton, dan sejumlah
+        partikel berenergi lainnya. Angin surya bergerak dengan kecepatan 400-750
+        km/s, dan suhu hingga 8\xD710\u2075 K. Angin Surya memang cukup berbahaya
+        untuk kehidupan. Di waktu tertentu, matahari mengeluarkan angin dan medan
+        magnet yang besar, yang disebut Lontaran massal Korona (badai geomagnetik)
+        (CME). CME berpengaruh besar pada Bumi, mulai dari merubah bentuk medan magnetnya,
+        peningkatan aktivitas aurora, merusak telekomunikasi satelit, hingga pemadaman
+        listrik massal di tempat tertentu."
+      images:
+      - path: sun/Sun_-_August_1,_2010
+        wikiLink: Sun_-_August_1,_2010.jpg
+        caption: Citra UV Matahari. Terlihat banyaknya Angin Surya yang dikeluarkan
+          oleh Matahari.
+      - path: sun/Heliospheric-current-sheet
+        wikiLink: Heliospheric-current-sheet.gif
+        caption: Gambar Fiktif distribusi Angin Surya di seluruh heliosfernya.
+    - head: Gravitasi
+      body: "Matahari adalah pusat dari Tata surya, dan Gravitasinya membantu planet
+        dan benda disekitarnya bergerak sesuai orbit dan peredarannya. Gravitasi pada
+        permukaannya adalah 274.0 m/s\xB2, atau 28 kali dari Bumi. Seperti Planet
+        lainnya, Matahari mempunyai Heliosfer, yaitu Medan Magnet yang dibentuk oleh
+        Matahari, dan membentang jauh diluar orbit Pluto. Angin surya menurun drastis
+        diluar area Termination Shock. Sampai sekarang masih diperdebatkan apakah
+        heliosfer matahari berbentuk komet dan hadiran Bow Shock diluar Heliosfer."
+      images:
+      - path: sun/Voyager_1_entering_heliosheath_region
+        wikiLink: Voyager_1_entering_heliosheath_region.jpg
+        caption: Model Heliosfer Matahari. Ingat bahwa Heliopause dan Bow Shock masih
+          dipertanyakan keberadaannya.
+      - path: sun/Solar_wind_at_Voyager_1
+        wikiLink: Solar_wind_at_Voyager_1.png
+        caption: Voyager 1 adalah Satelit Buatan satu-satunya yang melampaui Termination
+          Shock pada Juni 2012. Plot diatas adalah jumlah deteksi pada Angin surya
+          yang diterima oleh Voyager 1.
+      - path: sun/Termination_shock_in_sink
+        wikiLink: Termination_shock_in_sink.jpg
+        caption: Air yang ada pada Bak Cuci merupakan Analogi yang sama terhadap Termination
+          Shock.
+      - path: sun/52706main_hstorion_lg
+        wikiLink: 52706main_hstorion_lg.jpg
+        caption: Heliosfer juga dapat terlihat di Bintang Lainnya, seperti yang ada
+          di dekat Nebula Orion.
+    - head: Posisi dan Batas Lingkup Tatasurya
+      body: Matahari bersama bintang lain terdekatnya, memutari galaksi kita yang
+        dinamakan Galaksi Bimasakti. Matahari diketahui bergerak secepat 220 km/s
+        memutari pusat galaksi yang berjarak 27200 Tahun cahaya. Matahari lebih terang
+        85% dari bintang lain digalaksi ini. Bintang terdekat dari Matahari adalah
+        Alpha Centauri, yang hanya berjarak 4.3 Tahun Cahaya.
+      images:
+      - path: sun/Solarmap
+        wikiLink: Solarmap.png
+        caption: Ruang lingkup Matahari dalam skala Logaritmik. Awan Oort adalah batas
+          paling luar dari Tatasurya dan tersusun atas milyaran batu dan debu kecil.
+      - path: sun/Milky_Way_Arch
+        wikiLink: Milky_Way_Arch.jpg
+        caption: Terdapat sabuk yang dipenuhi oleh Gugusan Bintang menyelimuti Langit
+          Malam. itu adalah Galaksi Bimasakti, dan kita berada didalam galaksi tersebut.
+      - path: sun/Artist's_impression_of_the_Milky_Way_(updated_-_annotated)
+        wikiLink: Artist's_impression_of_the_Milky_Way_(updated_-_annotated).jpg
+        caption: Gambar Fiktif tentang Posisi Matahari didalam Galaksi Bimasakti.
+          Tatasurya termasuk dalam lengan yang dimanakan sebagai Lengan Orion.
+      - path: sun/PIA18003-NASA-WISE-StarsNearSun-20140425-2
+        wikiLink: PIA18003-NASA-WISE-StarsNearSun-20140425-2.png
+        caption: Beberapa Bintang yang paling dekat dengan Matahari. Proxima dan Alpha
+          Centauri adalah yang paling dikenal.
+    - head: Eksplorasi
+      body: Matahari telah dikunjungi oleh sejumlah satelit penyelidik, guna mempelajari
+        bagaimana sifat dan asal-usul matahari beserta informasi lainnya. Tidak hanya
+        itu saja, beberapa eksperimen mengenai sifat cahaya metahari bisa dilakukan
+        di permukaan Bumi, maupun di Bulan. Tidak hanya meneliti Matahari dan tata
+        surya, beberapa wahana antariksa sekarang meninggalkan tata surya kita. Satelit
+        itu ialah Voyager 1 & 2, dan Pioneer 1 & 2. Voyager adalah satelit buatan
+        manusia yang terjauh. Ia sekarang berada di jarak lebih dari 100 AU, dan telah
+        membuktikan keberadaan Termination Shock pada 25 Agustus 2012.
+      images:
+      - path: sun/Aldrin_Next_to_Solar_Wind_Experiment_-_GPN-2000-001211
+        wikiLink: Aldrin_Next_to_Solar_Wind_Experiment_-_GPN-2000-001211.jpg
+        caption: Eksperimen Angin Surya di Bulan pada Misi Apollo 11
+      - path: sun/Ulysses_-_artist_rendering_-_b02
+        wikiLink: Ulysses_-_artist_rendering_-_b02.jpg
+        caption: Eksperimen Matahari dari jarak jauh oleh Ulysses pada 1990 hingga
+          2009.
+      - path: sun/Interstellar_probes_(cropped)
+        wikiLink: Interstellar_probes_(cropped).jpg
+        caption: Ekpedisi keluar Tatasurya masih berjalan pada 4 satelit yang diluncurkan
+          sejak tahun 1970-an. Voyager 1 adalah yang tercepat dan terjauh.
+    moons: []
+  - id: mercury
+    name: Merkurius
+    points:
+    - head: Ciri Fisik
+      body: Merkurius adalah planet terkecil dan terdekat di dalam tata surya, dengan
+        diameter sebesar 4879 km saja. Ia merupakan planet keras berbatu, namun hampir
+        tak mempunyai Atmosfer. Ia juga mempunyai banyak kawah, dan mirip seperti
+        Bulan. Merkurius tak mempunyai Satelit, dan di bumi, ia selalu terlihat tak
+        terlalu jauh dengan matahari.
+      images:
+      - path: mercury/Mercury_as_Never_Seen_Before
+        wikiLink: Mercury_as_Never_Seen_Before.jpg
+        caption: Planet Merkurius tak mempunyai Atmosfer yang tebal. Foto Diambil
+          dari Satelit MESSENGER pada tahun 2008
+      - path: mercury/Terrestrial_planets_size_comparison
+        wikiLink: Terrestrial_planets_size_comparison.png
+        caption: Merkurius adalah planet terkecil di Tata Surya
+    - head: Orbit
+      body: Merkurius memenangkan kategori planet terdekat dengan Matahari dengan
+        jarak rata-rata 57 juta km. Ia mengorbit dengan kala revolusi 88 hari dan
+        kala rotasi 59 hari. Ini juga berarti merkurius menyelesaikan orbitnya setiap
+        1.5 hari merkurius. Orbit Merkurius juga berbentuk elips, dan tidak berbentuk
+        bulat seperti planet lainnya.
+      images:
+      - path: mercury/ThePlanets_Orbits_Mercury_PolarView.svg
+        wikiLink: ThePlanets_Orbits_Mercury_PolarView.svg
+        caption: Merkurius mengorbit hampir setiap 3 bulan sekali. Semua tanggal pada
+          gambar merujuk pada tahun 2006
+      - path: mercury/Mercury's_orbital_resonance.svg
+        wikiLink: Mercury's_orbital_resonance.svg
+        caption: Merkurius mempunyai 1.5 hari dalam Setahun
+      - path: mercury/Mercuryorbitsolarsystem
+        wikiLink: Mercuryorbitsolarsystem.gif
+        caption: Merkurius Bergerak 76% (hampir 4 kali) lebih cepat dari Bumi
+    - head: Pengamatan dari Bumi
+      body: "Magnitudo tampak merkurius berkisar di antara -2 sampai 5,5. Cukup terang,
+        namun ia tetap tidak mudah terlihat karena jaraknya sangat dekat dengan Matahari
+        (dengan sudut Elongasi maksimal 27\xB0), sehingga ia tak mudah terlihat karena
+        sering terhalang oleh sinar matahari. Merkurius paling mudah dilihat saat
+        baru setelah magrib, ataupun sebelum terbit."
+      images:
+      - path: mercury/Planet_Elongation
+        wikiLink: Planet_Elongation.jpg
+        caption: "Posisi Merkurius (dilihat dari Bumi) tak pernah melebihi dari 28\xB0
+          dengan Matahari"
+      - path: mercury/Mercury_transit_1
+        wikiLink: Mercury_transit_1.jpg
+        caption: Transit Merkurius (titik pada bagian tengah) diatas Matahari. Di
+          samping kiri adalah Bintik Matahari.
+    - head: Komposisi
+      body: Meskipun ia kecil, namun ia termasuk planet terpadat kedua setelah Bumi.
+        Merkurius adalah planet keras berbatu padat yang terdiri dari 70% logam dan
+        30% silikat. Ia mempunyai inti logam yang mengisi sekitar 42% volume Merkurius,
+        dan terbungkus oleh mantel dengan ketebalan sekitar 600 km. Penyebab permukaan
+        Merkurius yang berbukit-bukit adalah pada bagian intinya yang diduga masih
+        berwujud cair.
+      images:
+      - path: mercury/Internal_Structure_of_Mercury
+        wikiLink: Internal_Structure_of_Mercury.jpg
+        caption: Skema struktur dalam Merkurius. Inti Merkurius memang diduga sangat
+          tebal daripada Lapisan Lainnya
+    - head: Permukaan
+      body: Permukaan Merkurius mempunyai banyak kawah yang curam, bahkan mencapai
+        ratusan kilometer panjangnya. Kawah tersebut bisa bertahan hingga jutaan tahun
+        dikarenakan tidak adanya angin di permukaannya. Di bagian kutubnya, terdapat
+        lubang yang menyimpan air es yang membeku. Lubang tersebut diketahui cukup
+        tebal untuk membanjiri seluruh  kota Washington DC setengah mil dalamnya.
+      images:
+      - path: mercury/North_pole_of_Mercury_--_NASA
+        wikiLink: North_pole_of_Mercury_--_NASA.jpg
+        caption: Kutub Utara merkurius. Dibalik kawahnya (lubang berwarna hitam) terdapat
+          tudung (simpanan) es yang tebal.
+      - path: mercury/PIA19423-Mercury-AbedinCrater-20150416
+        wikiLink: PIA19423-Mercury-AbedinCrater-20150416.jpg
+        caption: Gambar jarak dekat salah satu kawah di Merkurius, Kawah Abedin.
+      - path: mercury/The_Mighty_Caloris_(PIA19213)
+        wikiLink: The_Mighty_Caloris_(PIA19213).png
+        caption: Mosaik dari Caloris Basin, kawah terbesar yang menutupi sekitar 30%
+          permukaan Merkurius.
+    - head: Atmosfer
+      body: "Merkurius hampir tak mempunyai Atmosfer, sehingga tak ada yang menjaga
+        suhu permukaannya. Saat malam, ia sedingin 100 K (-173 \xB0C), dan saat siang,
+        naik menjadi 700 K (427 \xB0C). Meskipun Ekstim, di daerah kutubnya, ia mempunyai
+        suhu yang konstan diantara 102-180 K, sehingga air es didalamnya tetap membeku
+        dan terlindung dari sinar matahari."
+      images:
+      - path: mercury/EW1027346412Gnomap
+        wikiLink: EW1027346412Gnomap.png
+        caption: Permukaan Merkurius meninggalkan kawah yang merata tanpa ada Atmosfer
+          yang terlihat
+      - path: mercury/PIA19247-Mercury-NPolarRegion-Messenger20150316
+        wikiLink: PIA19247-Mercury-NPolarRegion-Messenger20150316.jpg
+        caption: Plot suhu di kutub Utara Merkurius (merah bertanda panas)
+    - head: Gravitasi
+      body: Gravitasi Merkurius dikenal sangat lemah, meskipun cukup sebanding untuk
+        ukurannya yang kecil. Medan magnet Merkurius berkekuatan hanya 1,1% dari Kekuatan
+        bumi. Seperti Bumi, medan magnet merkurius berbentuk dipol, dan terciptan
+        oleh aktivitas pada bagian intinya. Meskipun magnetopause hanya berjarak 2
+        radii, ia masih mampu membelokkan angin surya diatas permukannya.
+      images:
+      - path: mercury/Mercury_Magnetic_Field_NASA
+        wikiLink: Mercury_Magnetic_Field_NASA.jpg
+        caption: Plot kekuatan relatif medan magnet Merkurius
+    - head: Satelit
+      body: Merkurius tidak mempunyai satelit bahkan cincin. Meskipun jika ada, maka
+        ada kemungkinan besar mereka akan bertabrakan karena terganggu oleh gravitasi
+        matahari, dikarenakan jaraknya yang masih terlalu dekat dengan Matahari. Pesawat
+        Antariksa yang ingin menuju ke Merkurius harus memilih mengorbit bersama matahari,
+        sehingga ia tak akan bertabrakan dengan Merkurius
+      images:
+      - path: mercury/MESSENGER_trajectory
+        wikiLink: MESSENGER_trajectory.png
+        caption: Bagaimana satelit seperti MESSENGER mampu mendekati Merkurius tanpa
+          tertabrak.
+    - head: Eksplorasi
+      body: Jarang ada Misi ke Merkurius, dikarenakan bentuk orbitnya yang cukup Ekstrim.
+        Terdapat 2 Pesawat Antariksa yang pernah mendekatinya, yaitu Mariner 10 pada
+        1978 dan MESSENGER pada 2004. Keduanya mendekati Merkurius dengan cara yang
+        sama. Misi Mariner 10 sudah berakhir, namun diyakini masih mengitari Matahari,
+        sedangkan misi MESSENGER berakhir dengan menabrakkan diri ke Permukaannya.
+      images:
+      - path: mercury/Mariner_10
+        wikiLink: Mariner_10.jpg
+        caption: Replika Mariner 10, satelit pertama yang mendekati Merkurius pada
+          1978
+      - path: mercury/Mercury
+        wikiLink: Mercury.jpg
+        caption: Fotografi pertama Merkurius oleh Mariner 10.
+      - path: mercury/MESSENGER_-_spacecraft_at_mercury_-_atmercury_lg
+        wikiLink: MESSENGER_-_spacecraft_at_mercury_-_atmercury_lg.jpg
+        caption: Gambar Fiktif MESSENGER saat sampai di dekat Merkurius
+      - path: mercury/MESSENGER_Assembly
+        wikiLink: MESSENGER_Assembly.jpg
+        caption: Satelit MESSENGER saat perakitan di Lab NASA.
+    moons: []
+  - id: venus
+    name: Venus
+    points:
+    - head: Ciri Fisik
+      body: Venus merupakan planet keras berbatu, dan terdekat kedua dengan ukuran
+        yang mirip dengan Bumi. Permukaannya tertutup oleh awan tebal berwarna kuning
+        kepucatan. Venus dikenal lama sejak zaman kuno sebagai Bintang Fajar atau
+        Bintang Senja, dikarenakan cahayanya yang begitu terang mengalahkan bintang
+        dan planet lain diangkasa.
+      images:
+      - path: venus/Venus-real_color
+        wikiLink: Venus-real_color.jpg
+        caption: Foto berwarna permukaan tampak Venus yang tertutup oleh awan tebal
+      - path: venus/Venus,_Earth_size_comparison
+        wikiLink: Venus,_Earth_size_comparison.jpg
+        caption: Venus hanya berselisih diameter 600 km lebih kecil dari Bumi
+    - head: Orbit
+      body: Venus berada di urutan kedua dari Matahari setelah Merkurius. Planet ini
+        mengorbit Matahari selama 224,7 hari Bumi, dan berotasi dengan waktu 243 hari.
+        Tidak seperti planet lainnya, Venus berputar terbalik, dan lebih lama daripada
+        kala revolusinya. Jadi jika dilihat dari Venus, matahari ibarat akan terbit
+        dari Barat.
+      images:
+      - path: venus/Venusorbitsolarsystem
+        wikiLink: Venusorbitsolarsystem.gif
+        caption: Orbit Venus relatif cepat dibandingkan dengan Bumi. Venus menyelesaikan
+          orbitnya 39% lebih cepat dari Bumi
+    - head: Pengamatan dari Bumi
+      body: "Venus merupakan objek alami tercerah di langit malam, dengan magnitudo
+        tampak sebesar \u22124,6. Angka tersebut cukup cerah bahkan mampu menghasilkan
+        bayangan di bumi. Dikarenakan ia lebih dekat dari bumi, Elongasi maksimalnya
+        47,8\xB0, sehingga sangat mudah untuk melihat venus di ufuk pagi maupun senja.
+        Karena venus mudah untuk dilihat, ia sering disebut sebagai Bintang Fajar
+        atau Bintang Senja."
+      images:
+      - path: venus/Venus-pacific-levelled
+        wikiLink: Venus-pacific-levelled.jpg
+        caption: Venus terlihat sebagai bintang paling cerah di atas langit senja
+          lautan Pasifik. Jupiter juga ada dibagian atas foto
+      - path: "venus/V\xE9nus_t\xE9lescope"
+        wikiLink: "V\xE9nus_t\xE9lescope.jpg"
+        caption: Planet Venus terlihat dari Teleskop
+      - path: venus/Phases_Venus
+        wikiLink: Phases_Venus.jpg
+        caption: Venus dari Teleskop di Bumi dapat terlihat sebagai beberapa fase
+          mirip seperti Bulan
+      - path: venus/Phases-of-Venus.svg
+        wikiLink: Phases-of-Venus.svg.png
+        caption: Bagaimana fase Venus bisa terlihat dari Bumi
+      - path: venus/Venustransit_2004-06-08_07-49
+        wikiLink: Venustransit_2004-06-08_07-49.jpg
+        caption: Transit (Matahari dibawah) Venus terlihat dari atas permukaan Bumi
+          pada tahun 2004
+    - head: Komposisi
+      body: Venus itu Planet keras berbatu dan sering disebut sebagai <i>planet saudara
+        Bumi</i> karena ukuran, gravitasi, dan komposisi yang mirip dengan Bumi, meskipun
+        banyak aspek lain yang berbeda jauh dengannya. Venus juga mempunyai Lempengan
+        yang membagi daratannya menjadi beberapa Benua, meskipun aktivitas Tektoniknya
+        tidak seaktif seperti di Bumi.
+      images:
+      - path: venus/Venus_structure
+        wikiLink: Venus_structure.jpg
+        caption: Struktur Interior Venus lebih lemah dari Bumi. Ada dugaan bahwa bagian
+          intinya masih berwujud cair.
+    - head: Permukaan
+      body: Meskipun permukaannya tidak tampak, namun pengambilan gambar melalui sinar
+        UV dan radar mampu memaparkan isi permukaan yang jelas dibawah Atmosfernya
+        yang sangat tebal. Permukaan Venus penuh dengan bebatuan dan gunung-gunung
+        yang menjulang tinggi. Beberapa gunung masih aktif bahkan pernah mengeluarkan
+        lava yang kini telah membeku.
+      images:
+      - path: venus/Venus_globe
+        wikiLink: Venus_globe.jpg
+        caption: Visualisasi Permukaan Venus yang dibangun melalui Sistem Radar
+      - path: venus/Maat_Mons_on_Venus
+        wikiLink: Maat_Mons_on_Venus.jpg
+        caption: Tampilan 3D disalah satu gunung di Venus oleh Radar Magellan
+      - path: venus/PIA00233-_Venus_-_3D_Perspective_View_of_Eistla_Regio
+        wikiLink: PIA00233-_Venus_-_3D_Perspective_View_of_Eistla_Regio.jpg
+        caption: Mosaik 3D lembah Eistla Regio oleh Radar Magellan
+      - path: venus/Mgn_f45n019_1
+        wikiLink: Mgn_f45n019_1.gif
+        caption: Jalur lava di Venus yang mempunyai lebar sekitar 2 km
+    - head: Atmosfer
+      body: "Venus memiliki Atmosfer yang sangat keras dibandingkan planet dalam lainnya.
+        Atmosfer Venus tersusun atas 96% karbon dioksida, dan mempunyai tekanan 92
+        kali lebih besar dari Bumi dengan suhu hingga 735 K (462 \xB0C). Suhu tersebut
+        merupakan suhu permukaan yang terpanas diseluruh planet di tata surya. Diperkirakan
+        Atmosfer tebal venus disebabkan oleh Pemanasan Global yang memasak seluruh
+        permukaan di planet tersebut milyaran tahun sebelumya."
+      images:
+      - path: venus/Venuspioneeruv
+        wikiLink: Venuspioneeruv.jpg
+        caption: Citra UV dari Venus mampu memunculkan pola awannya yang tebal
+      - path: venus/Venusatmosphere.svg
+        wikiLink: Venusatmosphere.svg
+        caption: Peta tekanan dan temperatur Venus terhadap ketinggian dari permukaan
+          Venus.
+      - path: venus/TerraformedVenus
+        wikiLink: TerraformedVenus.jpg
+        caption: Peneliti percaya bahwa 1 milyar tahun lalu Venus mempunyai habitat
+          seperti Bumi, namun menguap dan berubah menjadi kabut awan yang tebal
+    - head: Gravitasi
+      body: Meskipun Gravitasi Venus hampir sama seperti Bumi, medan magnet Venus
+        sangatlah rendah, bahkan angin suryanya dapat mengikis Atmosfer luar Venus,
+        yang kaya akan oksigen dan hidrogen. Ada dugaan bahwa medan magnet yang lemah
+        tersebut dikarenakan inti yang tidak padat, ataupun tak ada variasi suhu antara
+        inti dengan mantelnya.
+      images:
+      - path: 
+        wikiLink: 
+        caption: 
+    - head: Eksplorasi Venus
+      body: Venus telah dikunjungi oleh banyak satelit penjelajah, bahkan menjadi
+        tujuan pertama dalam dunia eksplorasi antar planet. Pada awal penjelajahan,
+        Soviet menjalankan belasan misi ke Venus dan menorehkan banyak informasi mengenai
+        Venus, meskipun banyak yang gagal pada awal pelucuran. Tidak Ketinggalan,
+        US juga bermain penting pada Penjelajahan Venus, dan mempunyai tingkat kesuksesan
+        yang lebih tinggi, meskipun lebih sedikit daripada Soviet.
+      images:
+      - path: venus/Mariner_2
+        wikiLink: Mariner_2.jpg
+        caption: Mariner 2, Satelit pertama yang sukses menjelajah ke suatu planet
+          dan mengunjungi Venus
+      - path: venus/Venera9
+        wikiLink: Venera9.png
+        caption: Fotografi Permukaan Venus setelah Mendarat oleh Venera 9
+      - path: venus/Magellan_deploy
+        wikiLink: Magellan_deploy.jpg
+        caption: Magellan, Venus orbiter yang meluncur pada 1990, saat akan meluncur
+          diatas Bumi
+    moons: []
+  - id: earth
+    name: Bumi
+    points:
+    - head: Ciri Fisik
+      body: Bumi adalah planet terpadat dan terbesar kelima dalam Tata Surya. Ia adalah
+        satu-satunya planet yang mampu mengakomodasi kehidupan. Bumi terlihat sebagai
+        daratan yang dibatasi oleh lautan biru, dan tertutup oleh awan tipis yang
+        tersebar merata dipermukaannya. Bumi tidaklah bulat sempurna, namun lebih
+        menonjol pada khatulistiwa, sehingga diameter bumi pada Khatulistiwa lebih
+        panjang 43 km daripada jarak antara kutub-kutubnya.
+      images:
+      - path: earth/The_Earth_seen_from_Apollo_17
+        wikiLink: The_Earth_seen_from_Apollo_17.jpg
+        caption: Foto <i>Bola Biru</i> oleh Apollo 12 saat menampilkan daratan Afrika
+          dan awan disekitar kutub selatannya.
+    - head: Orbit
+      body: "Bumi merupakan planet ketiga dari Matahari, setelah Merkurius dan Venus.
+        Bumi mempunyai jarak rata 1,5 juta km terhadap matahari, sehingga butuh 8
+        menit untuk cahaya matahari sampai di permukaannya. Jarak bumi sangat pas,
+        ditambah kemiringan Bumi yang stabil (23\xB0) membuat kutub-kutub, siklus
+        angin, dan perataan panas dibumi cukup stabil untuk mempertahankan kenyamanan
+        makhluk hidup diatas permukaannya."
+      images:
+      - path: earth/AxialTiltObliquity
+        wikiLink: AxialTiltObliquity.png
+        caption: "Bumi mempunyai kemiringan sekitar 23\xB0 terhadap Ekliptik, yaitu
+          garis yang menuju ke arah sinar matahari."
+      - path: earth/North_season
+        wikiLink: North_season.jpg
+        caption: Kemiringan tersebut membuat Bumi mengalami musim tahunan pada daerah
+          didekat kutub-kutub Bumi.
+    - head: Kehidupan
+      body: Bumi terbentuk sekitar 4,54 miliar tahun yang lalu, dan kehidupan dibumi
+        dimulai 1 milyar tahun kemudian. Bumi menjadi rumah oleh ratusan juta spesies
+        makhluk hidup, meskipun 99% diantaranya telah punah. Saat ini, Bumi menjadi
+        rumah 10-14 juta spesies dan 7.3 Milyar penduduk manusia. Bumi menyediakan
+        air, mineral, dan sumber daya yang cukup kaya untuk semua makhluk hidup diatas
+        permukaannya.
+      images:
+      - path: earth/Cagar_Biosfer_Giam_Siak_Kecil_Bukit_Batu_Riau_Indonesia
+        wikiLink: Cagar_Biosfer_Giam_Siak_Kecil_Bukit_Batu_Riau_Indonesia.jpg
+        caption: Kehidupan Biosfer di Bumi terlihat hidup di daratan yang penuh dengan
+          hutan yang lebat disertai langit yang cerah diatas sungai yang tenang.
+      - path: earth/Blue_Linckia_Starfish
+        wikiLink: Blue_Linckia_Starfish.JPG
+        caption: Cagar alam dibawah laut, didalam rimbunan karang didasar laut
+      - path: earth/Geologic_Clock_with_events_and_periods.svg
+        wikiLink: Geologic_Clock_with_events_and_periods.svg
+        caption: Plot sejarah Evolusi makhluk hidup dibumi
+    - head: Komposisi
+      body: "Bumi tersusun atas besi, oksigen, silikon, magnesium, logam-logam dan
+        mineral lainnya. Inti bumi merupakan logam berat tersusun atas logam berat
+        dan nikel, dengan suhu yang setara dengan suhu permukaan matahari (5400 \xB0C).
+        Mantel bumi merupakan bagian tertebal dengan ketebalan hingga 2800 km dalamnya.
+        Diatasnya terdapat kerak dimana terdapat makhluk hidup yang bertempat tinggal
+        diatasnya. Lapisan kerak tersebut mempunyai ketebalan yang tipis (6 km) di
+        laut, hingga 70 km tebalnya. Panas dari inti membuat mantel bergerak seperti
+        air yang mendidih, dan membuat kerak diatasnya senantiasa bergerak (meskipun
+        sangat lambat) selama jutaan tahun mendatang."
+      images:
+      - path: earth/Earth-cutaway-schematic-english.svg
+        wikiLink: Earth-cutaway-schematic-english.svg
+        caption: Lapisan Interior Bumi. Bumi mempunyai kedalaman hingga 6300 km kepada
+          pusat Inti.
+      - path: earth/Oceanic_spreading.svg
+        wikiLink: Oceanic_spreading.svg.png
+        caption: Diagram Aliran panas (konveksi) di dalam mantel. Mantel tersebut
+          selalu bergerak, dan menggerakkan permukaan diatasnya
+    - head: Permukaan
+      body: Permukaan Bumi terdiri dari 70% lautan dan 30% daratan. Setiap daratan
+        juga terbagi menjadi beberapa lempeng tektonik, dan mengalami gerakan yang
+        menggeser daratan sejak jutaan tahun yang lalu. Ketinggian daratan bumi bervariasi
+        mulai dari Palung Mariana hingga Gunung Everest (-10 sampai 8 km), sedangkan
+        suhu permukaannya bervariasi dari sedingin kutub selatan hingga sepanas gurun
+        Sahara. Diperkirakan daratan bumi awalnya menyatu, namun terpecah seiring
+        waktu berlalu hingga sekarang.
+      images:
+      - path: earth/Tectonic_plates_(empty).svg
+        wikiLink: Tectonic_plates_(empty).svg
+        caption: Peta Pembagian Lempeng Teknotik yang tersebar disetiap Benua
+      - path: earth/Mount_Everest_by_Kerem_Barut
+        wikiLink: Mount_Everest_by_Kerem_Barut.jpg
+        caption: Gunung Tertinggi di Bumi, yaitu Gunung Everest di Nepal yang mencapai
+          lebih dari 8800 km diatas Laut
+      - path: earth/Marie_Byrd_Land,_West_Antarctica_by_NASA
+        wikiLink: Marie_Byrd_Land,_West_Antarctica_by_NASA.jpg
+        caption: Daratan terdingin dan terkering didunia adalah Kutub Selatan. Selain
+          dingin, hampir tak ada awan apalagi hujan yang pernah menghampirinya.
+      - path: earth/Pangaea_continents
+        wikiLink: Pangaea_continents.png
+        caption: 5 Juta tahun silam, daratan bumi diperkirakan menyatu. kumpulan daratan
+          tersebut dikenal sebagai Pangea
+    - head: Atmosfer
+      body: "Atmosfer bumi mempunyai tekanan sebesar 101 kPa di permukaan laut. Atmosfernya
+        tersusun atas 78% Nitrogen dan 21% Oksigen. Atmosfer bumi dibagi menjadi beberapa
+        lapis, Mulai dari Troposfer hingga Eksosfer. Semakin keatas, tekanan dan suhu
+        semakin rendah hingga -143\xB0C pada lapisan atas mesosfer. Diatas mesosfer,
+        terdapat lapisan Termosfer yang mampu mencapai suhu 1982 \xB0C, dikarenakan
+        radiasi sinar UV yang belum terpantul sempurna oleh Ozon pada lapisan Mesosfer.
+        Selisih suhu Panas-Dingin inilah yang menyebabakan meteor sering meledak saat
+        memasuki lapisan Mesosfer."
+      images:
+      - path: earth/Sky-3
+        wikiLink: Sky-3.jpg
+        caption: Atmosfer Bumi dilihat dari atas awan
+      - path: earth/Atmosphere_layers.svg
+        wikiLink: Atmosphere_layers.svg
+        caption: Bagan Lapisan Atmosfer Bumi. Ingat bahwa batas luar Eksosfer masih
+          belum diketahui
+      - path: earth/Full_moon_partially_obscured_by_atmosphere
+        wikiLink: Full_moon_partially_obscured_by_atmosphere.jpg
+        caption: Atmosfer Bumi di angkasa. Terlihat juga Bulan yang terbias oleh Atmosfer
+      - path: earth/ISS-40_Typhoon_Halong
+        wikiLink: ISS-40_Typhoon_Halong.jpg
+        caption: Badai Topan Bumi diatas Angkasa, tampilan dari ISS
+      - path: earth/ISS-30_Aurora_Borealis_above_Manitoba,_Canada
+        wikiLink: ISS-30_Aurora_Borealis_above_Manitoba,_Canada.jpg
+        caption: Aurora diatas angkasa, tampilan dari ISS
+      - path: earth/Midwestern_USA_at_Night_with_Aurora_Borealis_-_NASA_Earth_Observatory
+        wikiLink: Midwestern_USA_at_Night_with_Aurora_Borealis_-_NASA_Earth_Observatory.jpg
+        caption: Langit malam diatas Amerika, tampilan dari ISS
+    - head: Gravitasi
+      body: "Bumi mempunyai Gravitasi sekitar 10 m\xB2/s. Bumi juga mempunyai medan
+        magnet yang cukup besar untuk membuat kehidupan dipermukaannya bisa bertahan
+        hingga milyaran tahun kedepan. Angin surya matahari yang berbahaya dibelokkan
+        oleh medan magnetnya, dan menghasilkan aurora baik di kutub utara (disebut
+        Aurora Borealis), maupun di kutub selatan (yang disebut Aurora Australis)."
+      images:
+      - path: earth/Structure_of_the_magnetosphere-en.svg
+        wikiLink: Structure_of_the_magnetosphere-en.svg
+        caption: Struktur Magnetosfer (medan magnet) Bumi. Ia membantu dalam membelokkan
+          angin surya, dan menyelamatkan Bumi seisinya dari marabahayanya
+      - path: earth/Polarlicht_2
+        wikiLink: Polarlicht_2.jpg
+        caption: Aurora dilangit Kutub Utara, yang dihasilkan dari Pertemuan antara
+          Angin Surya dan Atmosfer Kutub yang sangat Dingin
+    - head: Satelit
+      body: "Bumi mempunyai satu satelit alami, yang dinamakan sebagai Bulan. Bulan
+        merupakan satelit terbesar kelima dalam Tata Surya. Bulan mempunyai ukuran
+        dengan diameter 27%, kepadatan 60%, dan massa 1\u204481 dari Bumi. Bulan berotasi
+        secara sinkron, sehingga 'sisi depan' permukaannya selalu menghadap ke bumi.
+        Bulan mempunyai pengaruh yang cukup besar terhadap bumi, mulai dari pasang-surutnya
+        air laut, fenomena gerhana bulan-matahari, hingga memperlambat rotasi bumi.
+        Beberapa orang bahkan mengalami amnesia pada saat bulan penuh."
+      images:
+      - path: earth/FullMoon2010
+        wikiLink: FullMoon2010.jpg
+        caption: Permukaan Bulan yang menghadap Bumi. Inilah bagian yang selalu terlihat
+          dilangit malam
+      - path: earth/Moon_Farside_LRO
+        wikiLink: Moon_Farside_LRO.jpg
+        caption: Permukaan Bulan yang membelakangi Bumi. Ingat bahwa bagian ini tak
+          pernah bisa dilihat hingga Eksplorasi angkasa pada 1960-an
+      - path: earth/Moon_phases_en
+        wikiLink: Moon_phases_en.jpg
+        caption: Bagaimana Fase Bulan dapat terlihat. Bulan membutuhkan 27 hari untuk
+          berevolusi satu putaran, namun 29,5 hari untuk menjadi Fase bulan baru kembali.
+      - path: earth/Lunar_eclipse_October_8_2014_California_Alfredo_Garcia_Jr_mideclipse
+        wikiLink: Lunar_eclipse_October_8_2014_California_Alfredo_Garcia_Jr_mideclipse.JPG
+        caption: Gerhana Bulan dilangit malam, yang terjadi setiap 2 kali setahun.
+    - head: Eksplorasi
+      body: Pada abad pertengahan, banyak hal yang ditemukan dilangit, khususnya pada
+        saat waktu malam. Banyak informasi yang kita dapatkan, tetapi juga masih menyimpan
+        banyak misteri didalamnya. Ide tentang eksplorasi angkasa muncul pada awal
+        abad 20, dan berkembang hingga era kompetensi angkasa dimulai pada 1957. Pada
+        masa itu, perang dingin antara Soviet dan US dalam hal penjelajahan angkasa
+        terus digelar, banyak penelitian angkasa yang digelar, hingga berakhir damai
+        pada akhir abad 20-an
+      images:
+      - path: earth/Sputnik_1
+        wikiLink: Sputnik_1.jpg
+        caption: Replika Satelit Pertama oleh Uni Soviet Sputnik 1 yang diluncurkan
+          pada 1957, dan menandakan mulainya era perang dingin di Angkasa
+      - path: earth/Gagarin_Capsule
+        wikiLink: Gagarin_Capsule.jpg
+        caption: Replika Kapsul Vostok 1, Satelit Soviet pertama yang membawa astronot
+          pertama di dunia, Yuri Gagarin pada April 1961
+      - path: earth/Ed_White_First_American_Spacewalker_-_GPN-2000-001180
+        wikiLink: Ed_White_First_American_Spacewalker_-_GPN-2000-001180.jpg
+        caption: Edward White, astronot amerika pertama yang melakukan <i>Spacewalk</i>
+          pada 1967
+      - path: earth/NASA-Apollo8-Dec24-Earthrise
+        wikiLink: NASA-Apollo8-Dec24-Earthrise.jpg
+        caption: Foto <i>Earthrise</i>, Bumi diatas Bulan oleh NASA pada Misi Apollo
+          8 pada Desember 1968
+      - path: earth/Aldrin_Apollo_11_original
+        wikiLink: Aldrin_Apollo_11_original.jpg
+        caption: Aldrin bersama Neil Amstrong (dibelakang kamera), manusia pertama
+          yang berjalan diatas Bulan dengan Misi Apollo 11 pada 1969
+      - path: earth/NASA_Apollo_17_Lunar_Roving_Vehicle
+        wikiLink: NASA_Apollo_17_Lunar_Roving_Vehicle.jpg
+        caption: Rover diatas Bulan dari misi Apollo 17
+      - path: earth/STS-133_International_Space_Station_after_undocking_9
+        wikiLink: STS-133_International_Space_Station_after_undocking_9.jpg
+        caption: ISS, satelit multi-nasional terbesar yang kini ditempati oleh Manusia
+          diangkasa diberbagai negara dan masih berfungsi hingga sekarang
+      - path: earth/Isshtv120090917200858nm
+        wikiLink: Isshtv120090917200858nm.jpg
+        caption: ISS mudah terlihat dilangit malam setelah senja, dan mempunyai tingkat
+          kecerahan yang setara dengan Venus
+      - path: earth/Hubble_01
+        wikiLink: Hubble_01.jpg
+        caption: Salah satu satelit berawak yang cukup populer, Teleskop Hubble yang
+          masih beroperasi hingga sekarang
+      - path: earth/Space_Shuttle_Columbia_launching
+        wikiLink: Space_Shuttle_Columbia_launching.jpg
+        caption: Setiap sekarang dan seterusnya setidaknya ada lebih dari puluhan
+          roket diluncurkan keangkasa tiap tahun
+      - path: earth/Debris-GEO1280
+        wikiLink: Debris-GEO1280.jpg
+        caption: Total ribuan satelit telah diluncurkan diatas Bumi. Paling tidak
+          ada jutaan partikel kecil yang bertebangan diatas bumi, yang cukup berbahaya
+          untuk satelit-satelit yang masih beroperasi, termasuk ISS
+    moons:
+    - id: moon
+      label: Bulan
+  - id: mars
+    name: Mars
+    points:
+    - head: Ciri Fisik
+      body: Mars adalah planet keras berbatu dengan ukuran yang setengahnya dari Bumi.
+        Ia juga hanya mempunyai 11% massa Bumi. Mars masih lebih besar daripada Merkurius,
+        meskipun Merkurius lebih padat. Mars mempunyai tanah dan kutub es seperti
+        bumi, namun dengan Atmosfer yang tipis. Mars juga berwarna kuning ke merah-merahan
+        disebabkan kandungan logam besi oksida pada permukaannya.
+      images:
+      - path: mars/Mars_Hubble
+        wikiLink: Mars_Hubble.jpg
+        caption: Mars dari Teleskop Hubble, Awan putih difoto menandakan adanya badai
+          yang sangat lebat disana
+    - head: Orbit
+      body: Mars adalah planet terdekat keempat dari Matahari. Ia mempunyai kemiringan
+        dan kala rotasi yang hampir sama dengan bumi. Kala rotasi Mars setara dengan
+        24,6 jam bumi, dan mempunyai periode orbit sekitar 686 Hari, atau hampir setara
+        dengan 2 tahun di bumi. Mars berjarak 1.5 AU dari Matahari, dan mempunyai
+        kemiringan yang hampir sama dengan Bumi.
+      images:
+      - path: mars/PIA19396-PlanetMars-OrbitsOfMoonsAndOrbiters-20150504
+        wikiLink: PIA19396-PlanetMars-OrbitsOfMoonsAndOrbiters-20150504.jpg
+        caption: Skema orbit satelit Mars, beserta orbit dari beberapa misi penjelajahan
+          di Mars
+    - head: Pengamatan dari Bumi
+      body: Planet ini sering dijuluki sebagai <i>planet merah</i> karena tampak dari
+        jauh ia berwarna kemerah-kemerahan. Mars mempunyai magnitudo tampak sekitar
+        -1,4 hingga -3, lebih terang dari bintang lainnya. Karena orbit mars eksentrik,
+        maka pada waktu tertentu, ia bisa terlihat bergerak terbalik, dan itu terjadi
+        sekitar 72 hari lamanya.
+      images:
+      - path: mars/Apparent_retrograde_motion_of_Mars_in_2003
+        wikiLink: Apparent_retrograde_motion_of_Mars_in_2003.gif
+        caption: Mars lebih jauh dari Bumi, sehingga dilangit ia terkadang terlihat
+          gerak mundur kebelakang. Gerak inilah yang disebut sebagai Gerak Retrograde,
+          dan ini terjadi setiap 2 tahun sekali
+    - head: Komposisi
+      body: Mars termasuk planet yang keras berbatu, dan komposisi Mars hampir mirip
+        dengan Bumi. Ia tersusun atas elemen-elemen logam, dan terbagi menjadi beberapa
+        lapis seperti Inti, Mantel, dan Kerak. Permukaannya tersusun atas besi yang
+        teroksidasi, sehingga permukaannya tampak kemerah-kemerahan. Beberapa sampel
+        permukaan Mars pernah ditemukan melalui meteorit yang berjatuhan di permukaan
+        Bumi. Ini berarti material Mars sering keluar dikarenakan sering bertabrakan
+        dengan Asteroid diangkasa.
+      images:
+      - path: mars/Silicon_Map_Mars
+        wikiLink: Silicon_Map_Mars.jpg
+        caption: Peta kandungan Silikon Besi dipermukaan Mars. Merah berarti kadarnya
+          tinggi
+      - path: mars/PIA19088-MarsCuriosityRover-MethaneSource-20141216
+        wikiLink: PIA19088-MarsCuriosityRover-MethaneSource-20141216.png
+        caption: Perkiraan Asal-usul kandungan Metana dalam Permukaan Mars, membuahkan
+          hipotesis bahwa ada Air dibawah permukaan Mars
+    - head: Permukaan
+      body: Di permukaan Mars terdapat bebautuan, kawah, gunung berapi, lembah, gurun,
+        ngarai, dan tudung es pada kutub-kutubnya. Di bagian utaranya, terdapat lembah
+        yang melingkupi 40% permukaan Mars. Mars juga mempunyai gunung tertinggi di
+        tata surya yang dinamakan dengan <i>Olympus Mons</i>, dan lembah terpanjang
+        yang dinamakan dengan <i>Valles Merines</i>. Tudung es yang ada pada kutub-kutub
+        Mars terdiri dari es air, dan dilapisi oleh Es karbon dioksida. Banyak es
+        dan bekas-bekas yang menunjukkan bukti bahwa Mars dulunya mempunyai lautan
+        air seperti dibumi
+      images:
+      - path: mars/Karte_Mars_Schiaparelli_MKL1888
+        wikiLink: Karte_Mars_Schiaparelli_MKL1888.png
+        caption: Peta Mars yang dibuat Pertama kali pada tahun 1888
+      - path: mars/Mars_topography_(MOLA_dataset)_with_poles_HiRes
+        wikiLink: Mars_topography_(MOLA_dataset)_with_poles_HiRes.jpg
+        caption: Peta Ketinggian (Topologi) Mars. Biru berarti Rendah. Lihat seksama
+          bahwa 40% bagian utara Mars dipenuhi oleh Lembah
+      - path: mars/PIA15038_-_Spirit_lander_and_Bonneville_Crater_on_Mars
+        wikiLink: PIA15038_-_Spirit_lander_and_Bonneville_Crater_on_Mars.jpg
+        caption: Salah satu Kawah Besar di Mars
+      - path: mars/Olympus_Mons_alt
+        wikiLink: Olympus_Mons_alt.jpg
+        caption: Gunung tertinggi di Tata Surya, Olympus Mons. ketinggiannya mencapai
+          lebih dari 15 km dari dasar
+      - path: mars/Mars_Valles_Marineris
+        wikiLink: Mars_Valles_Marineris.jpeg
+        caption: Valles Marines terlihat sebagai ngarai terpanjang (+4000 km) sepanjang
+          permukaan Mars
+      - path: mars/Martian_north_polar_cap
+        wikiLink: Martian_north_polar_cap.jpg
+        caption: Kutub Utara Mars
+      - path: mars/South_Polar_Cap_of_Mars_during_Martian_South_summer_2000
+        wikiLink: South_Polar_Cap_of_Mars_during_Martian_South_summer_2000.jpg
+        caption: Kutub Selatan Mars
+      - path: mars/Eso1509a_-_Mars_planet
+        wikiLink: Eso1509a_-_Mars_planet.jpg
+        caption: Gambaran fiktif mengenai Mars pada saat ia masih kaya akan Air
+    - head: Atmosfer
+      body: "Mars mempunyai Atmosfer yang tipis dengan tekanan permukaan 610.5 Pa,
+        atau 0.6% dari Bumi. Tekanan tersebut sangat rendah, bahkan airpun tak bisa
+        bertahan di daratannya. Atmosfer Mars tersusun atas 95% karbon dioksida, dan
+        dipenuhi oleh debu yang bertebangan diatas permukaannya, bahkan sampai menjadi
+        Badai Gurun yang besar. Suhu permukaannya pun relatif dingin dan berkisar
+        dari \u221287 \xB0C hingga \u22125 \xB0C pada musim panas."
+      images:
+      - path: mars/Mars_atmosphere_2
+        wikiLink: Mars_atmosphere_2.jpg
+        caption: Foto Atmosfer Mars dari angkasa yang 100 kali lebih tipis dari Bumi.
+      - path: mars/MarsSunset
+        wikiLink: MarsSunset.jpg
+        caption: Matahari Terbenam di Mars. Ia terlihat biru, karena debunya membiaskan
+          cahaya biru, daripada merah yang seperti dibumi
+      - path: mars/Sol454_Marte_spirit
+        wikiLink: Sol454_Marte_spirit.jpg
+        caption: Pemandangan permukaan dan atmosfer di gurun Mars. Mars berwarna merah
+          karena kandungan Silikanya yang tinggi
+    - head: Satelit
+      body: Mars memiliki 2 buah satelit, yaitu Phobos dan Deimos. Phobos lebih dekat,
+        dan lebih besar dari Deimos. Phobos dan Deimos masing-masing berdiameter rata-rata
+        20 km dan 13 km, sangat kecil bahkan mereka juga tidak mempunyai bentuk yang
+        beraturan. Mereka bahkan mengitari Mars lebih cepat dari rotasi Mars itu sendiri.
+      images:
+      - path: mars/Phobos_colour_2008
+        wikiLink: Phobos_colour_2008.jpg
+        caption: Gambar jarak dekat Phobos oleh Satelit MRO
+      - path: mars/Deimos-MRO
+        wikiLink: Deimos-MRO.jpg
+        caption: Gambar jarak dekat Deimos oleh Satelit MRO
+      - path: mars/Mars_Moons_Orbit_distance
+        wikiLink: Mars_Moons_Orbit_distance.jpeg
+        caption: Perbandingan ukuran dan jarak satelit Mars dengan Mars itu sendiri
+      - path: mars/PIA17356-MarsCuriosityRover-EclipseOfSunByPhobos
+        wikiLink: PIA17356-MarsCuriosityRover-EclipseOfSunByPhobos.jpg
+        caption: Gerhana Matahari Cincin oleh Phobos, dengan jarak 3 detik setiap
+          fotonya. Phobos jauh lebih terlihat daripada Deimos di Mars
+    - head: Eksplorasi
+      body: Mars adalah planet yang menjadi pusat perhatian para peneliti. Sejak tahun
+        1960, paling tidak ada 55 misi penjelajahan ke Mars, mulai dari Flyby, Orbit,
+        hingga mendarat dan Meluncurkan Rover. dari 55 Misi tersebut, hanya 53% yang
+        dinyatakan sukses. Tidak ada manusia yang datang ke Mars, namun direncanakan,
+        akan ada program kolonisasi Mars yang direalisasikan setidaknya pada akhir
+        tahun 2020-an.
+      images:
+      - path: mars/Mars_(Mariner_4)
+        wikiLink: Mars_(Mariner_4).jpg
+        caption: Foto jarak dekat pertama kali yang dilakukan oleh Satelit Mariner
+          4 pada 1965.
+      - path: mars/Mars_Viking_11d128
+        wikiLink: Mars_Viking_11d128.png
+        caption: Foto permukaan Mars melalui Viking lander diambil pada tahun 1977
+      - path: mars/Mars_Pathfinder_Lander_preparations
+        wikiLink: Mars_Pathfinder_Lander_preparations.jpg
+        caption: Pathfinder dan Sojourner (Rover kecil diatasnya) saat sedang dipersiapkan.
+          Mereka sampai di Mars pada 1997
+      - path: mars/Curiosity_Self-Portrait_at_'Big_Sky'_Drilling_Site
+        wikiLink: Curiosity_Self-Portrait_at_'Big_Sky'_Drilling_Site.jpg
+        caption: Potret-diri Curiosity pada 2015. Ia masih beroperasi sejak Agustus
+          2012 hingga sekarang
+      - path: mars/PIA15279_3rovers-stand_D2011_1215_D521
+        wikiLink: PIA15279_3rovers-stand_D2011_1215_D521.jpg
+        caption: 'Perbandingan tiga Rover penjelajah Mars (dari kiri): MER (bagian
+          dalam misi Opportunity), Sojourner (bagian dari misi Pathfinder), dan Curiosity'
+    moons:
+    - id: phobos
+      label: Phobos
+    - id: deimos
+      label: Deimos
+  - id: ceres
+    name: Ceres
+    points:
+    - head: Ciri Fisik
+      body: 1 Ceres adalah planet kerdil dan termasuk anggota dari Sabuk Asteroid.
+        Ia berdiameter sekitar 945 km, sehingga ia adalah yang terbesar daripada batu
+        asteroid lainnya. Ceres juga merupakan anggota Sabuk Asteroid yang terberat,
+        dan mengisi sepertiga massa dari seluruh benda di Sabuk Asteroid. Ceres juga
+        satu-satunya asteroid yang mampu berbentuk bulat dikarenakan gravitasinya
+        sendiri, tidak seperti asteroid lainnya.
+      images:
+      - path: ceres/PIA19562-Ceres-DwarfPlanet-Dawn-RC3-image19-20150506
+        wikiLink: PIA19562-Ceres-DwarfPlanet-Dawn-RC3-image19-20150506.jpg
+        caption: Tampilan Terdekat Ceres oleh Satelit Dawn pada Mei 2015
+      - path: ceres/Asteroidsscale
+        wikiLink: Asteroidsscale.jpg
+        caption: Beberapa variasi ukuran Asteroid yang tersebar di Tatasurya. 4 Vesta
+          adalah asteroid terbesar kedua setelah Ceres
+    - head: Orbit
+      body: Ceres termasuk anggota dari Sabuk Asteroid, dan satu-satunya planet kerdil
+        didalam orbit Neptunus. Ia mengorbit diantara Planet Mars dan Jupiter, dan
+        membagi orbitnya dengan asteroid-asteroid lain didekatnya. Ceres mempunyai
+        jarak sekitar 2.7 AU dari Matahari, kala revolusi sekitar 4.6 tahun, dan kala
+        rotasi sekitar 9 jam saja.
+      images:
+      - path: ceres/Ceres_Orbit.svg
+        wikiLink: Ceres_Orbit.svg.png
+        caption: Skema Orbit Ceres. Orbit Ceres mewakili orbit ribuan benda Asteroid
+          lainnya
+    - head: Pengamatan dari Bumi
+      body: Ceres mempunyai magnitudo tampak diantara 6.7 hingga 9.3, sehingga ia
+        membutuhkan teropong untuk bisa dilihat dengan Jelas. Ia pernah pada fase
+        yang paling terang pada 18 Desember 2012. Beberapa Asteroid yang pernah menyamai
+        kecerahannya seperti asteroid Versa, Pallas, dan Iris, meskipun Pallas dan
+        Iris lebih jarang terjadi.
+      images:
+      - path: ceres/PIA17937-MarsCuriosityRover-FirstAsteroidImage-20140420
+        wikiLink: PIA17937-MarsCuriosityRover-FirstAsteroidImage-20140420.jpg
+        caption: Ceres dan Vesta beserta planet/satelit lainnya di langit Mars. Foto
+          diambil melalui Curiosity
+    - head: Komposisi
+      body: Ceres diyakini tersusun menjadi beberapa lapis zat. Ceres tersusun atas
+        Inti yang keras berbatu, dan Mantel yang diduga terdiri dari Air yang membeku.
+        Mantel tersebut mempunyai ketebalan sekitar 100 km, sehingga ia mengandung  hingga
+        50% volume ceres, atau 200 juta kubik kilometer air. Jumlah air tersebut tentunya
+        melampaui jumlah air segar di bumi.
+      images:
+      - path: ceres/Interior_Structure_of_Ceres_-_diagram.svg
+        wikiLink: Interior_Structure_of_Ceres_-_diagram.svg.png
+        caption: Struktur Dalam Ceres. Ada dugaan kuat mengenai mantel Ceres yang
+          tesusun atas Es yang membeku
+    - head: Permukaan
+      body: Ceres mempunyai banyak kawah yang merata pada seluruh Permukaannya. Lebar
+        Kawah-kawah tersebut bervariasi dari beberapa Meter hingga lebih dari 280
+        km. Salah satu Fitur permukaan Ceres yang paling terkenal adalah dua titik
+        Cerah di salah satu kawahnya. Ini diyakini karena pantulan matahari pada zat
+        yang mempunyai tingkat refleksitas yang tinggi, kemungkinan ialah Es atau
+        semacamnya. Selain Kawah, ada satu gunung di ceres, dengan ketinggian mencapai
+        6 km dan lebar 15 km.
+      images:
+      - path: ceres/Ceres_-_RC3_-_Haulani_Crater_(22381131691)_(cropped)
+        wikiLink: Ceres_-_RC3_-_Haulani_Crater_(22381131691)_(cropped).jpg
+        caption: Mosaik Ceres menampilkan kawah-kawah yang merata diseluruh permukaannya
+      - path: ceres/PIA20350_crop_-_Occator_from_LAMO
+        wikiLink: PIA20350_crop_-_Occator_from_LAMO.jpg
+        caption: Gambar jarak dekat bintik cerah dari Kawah Occator
+    - head: Eksplorasi
+      body: Ceres dikunjungi satu kali oleh Pesawat Antariksa Dawn pada 6 Mei 2015.
+        Ia pertama meluncur pada September 2007, dan mengunjungi Mars untuk menambah
+        kecepatan (gravity assist) pada 2009, dan mengunjungi Vesta (asteroid terberat
+        kedua) pada 2011 selama 2 bulan sebelum mencapai dan mengorbit pada Ceres
+        pada 6 Maret 2015. Pada 16 Desember 2015, Ceres menyelesaikan misinya, dengan
+        tetap Mengorbit pada Ceres.
+      images:
+      - path: ceres/Dawn_Flight_Configuration_2
+        wikiLink: Dawn_Flight_Configuration_2.jpg
+        caption: Gambar Fiktif Satelit Dawn, dengan Ceres dan Vesta di latar belakangnya
+    moons: []
+  - id: jupiter
+    name: Yupiter
+    points:
+    - head: Ciri Fisik
+      body: Yupiter adalah planet terbesar dan terberat di Tata Surya dengan massa
+        1/1000 kali massa Matahari dan 2,5 kali jumlah massa semua planet lain di
+        Tata Surya. Yupiter mempunyai kecepatan rotasi yang sangat cepat, sehingga
+        berbentuk bola agak pipih (pepat). Ia juga mempunyai Atmosfer yang dinamis,
+        bergerak cepat sehingga dapat terlihat lapisan-lapisan awan di permukaannya.
+      images:
+      - path: jupiter/Jupiter_on_2009-07-23_(captured_by_the_Hubble_Space_Telescope)
+        wikiLink: Jupiter_on_2009-07-23_(captured_by_the_Hubble_Space_Telescope).jpg
+        caption: Planet Jupiter terlihat dari Teleskop Hubble
+      - path: jupiter/SolarSystem_OrdersOfMagnitude_Sun-Jupiter-Earth-Moon
+        wikiLink: SolarSystem_OrdersOfMagnitude_Sun-Jupiter-Earth-Moon.jpg
+        caption: Perbandingan antara ukuran Bulan, Bumi, Jupiter dan Matahari
+      - path: jupiter/Masses_of_the_planets_en.svg
+        wikiLink: Masses_of_the_planets_en.svg.png
+        caption: Perbandingan massa planet-planet di tata surya
+    - head: Orbit
+      body: "Yupiter adalah planet terdekat kelima dari Matahari diantara Mars dan
+        Saturnus. Ia berjarak 5.2 AU dari Matahari, dan mempunyai kala revolusi selama
+        11.9 Tahun lamanya. Ia berotasi selama 9 jam, yang lebih cepat dari planet
+        Tatasurya lainnya. Jupiter juga mempunyai kemiringan sekitar 3\xB0, dan diduga
+        bahwa planet lain juga mengikuti sudut inkinasi Jupiter tersebut karena gravitasinya
+        yang tinggi."
+      images:
+      - path: jupiter/InnerSolarSystem-en
+        wikiLink: InnerSolarSystem-en.png
+        caption: Orbit Jupiter diluar Sabuk Asteroid. Disekitar jupiter terdapat batuan
+          asteroid yang terperangkap oleh efek gravitasinya
+    - head: Pengamatan dari Bumi
+      body: "Yupiter telah dikenal oleh para astronom sejak zaman kuno. Magnitudo
+        tampak Yupiter dapat mencapai \u22122,94, sehingga ia yang paling terang setelah
+        Bulan dan Venus. Terkadang, Mars lebih terang dari Jupiter, dan begitu sebaliknya.
+        Setidaknya pada abad 17-19, Badai Merah Jupiter bisa terlihat pada teleskop
+        yang cukup besar."
+      images:
+      - path: jupiter/Conjunction_of_Jupiter_and_Moon
+        wikiLink: Conjunction_of_Jupiter_and_Moon.jpg
+        caption: Jupiter di Langit Malam (dan Bulan)
+      - path: jupiter/Jupiter_and_Io
+        wikiLink: Jupiter_and_Io.jpg
+        caption: Jupiter (dan Io) dilihat dari Teleskop
+    - head: Komposisi
+      body: Yupiter sebagian besar terdiri dari 71% hidrogen dan 24% helium. Yupiter
+        juga mempunyai inti yang padat, meskipun sebagian besar penyusunnya berbentuk
+        cair maupun gas. Massa jupiter sangat besar bahkan Jika massa jupiter 75 kali
+        lebih banyak dari yang sekarang, maka hidrogennya mulai ber-fusi, dan beralih
+        menjadi bintang. Suhu pada bagian inti diperkirakan bisa mencapai 36000 K.
+      images:
+      - path: jupiter/Jupiter_diagram.svg
+        wikiLink: Jupiter_diagram.svg
+        caption: Diagram komposisi dan beberapa fitur diluar Jupiter
+    - head: Permukaan
+      body: "Yupiter tidak mempunyai permukaan yang padat. Jika ada meteor masuk,
+        maka ia langsung meledak karena tingginya tekanan udara dipermukaannya. Suhu
+        Permukaan pada tekanan 10 bar itu 340 K (67 \xB0C). Permukaan Yupiter berupa
+        gas yang bergerak cepat hingga 100 m/s. Gas tersebut terbagi menjadi beberapa
+        lapisan pita sepanjang lintang permukaannya."
+      images:
+      - path: jupiter/Jupiter_Belt_System.svg
+        wikiLink: Jupiter_Belt_System.svg
+        caption: Pembagian sabuk awan disepanjang lintang Jupiter
+      - path: jupiter/PlanetJupiter-PolarView-NASA
+        wikiLink: PlanetJupiter-PolarView-NASA.jpg
+        caption: Gambar komposit dari kutub selatan Jupiter
+      - path: jupiter/Jupiter_MAD
+        wikiLink: Jupiter_MAD.jpg
+        caption: Emisi Jupiter dalam Tampilan UV
+    - head: Atmosfer
+      body: Jupiter mempunyai Atmosfer tertebal, yang ketebalan melebihi 5000 km tingginya.
+        Atmosfer Jupiter terdiri atas 80% hidrogen, 10% helium, dan terbungkus oleh
+        kristal amonia. Sering terjadi badai diantara lapisan awannya. Diantara beberapa
+        badai yang pernah terjadi, Bintik merah raksasa adalah yang terbesar, dengan
+        besar yang sebanding dengan ukuran bumi. Badai tersebut muncul sejak 400 tahun
+        yang lalu, dan masih berlangsung hingga sekarang.
+      images:
+      - path: jupiter/Great_Red_Spot_From_Voyager_1
+        wikiLink: Great_Red_Spot_From_Voyager_1.jpg
+        caption: Bintik Merah Raksasa di Permukaan Jupiter. Bintik tersebut adalah
+          badai yang diketahui muncul sejak abad ke-17, dan masih berlangsung hingga
+          sekarang
+      - path: jupiter/NASA14135-Jupiter-GreatRedSpot-Shrinks-20140515
+        wikiLink: NASA14135-Jupiter-GreatRedSpot-Shrinks-20140515.jpg
+        caption: Bintik Merah Raksasa semakin menciut seiring waktu berjalan
+      - path: jupiter/Thermal_emission_of_Jupiter
+        wikiLink: Thermal_emission_of_Jupiter.jpg
+        caption: Tampilan Inframerah Jupiter, memperlihatkan penyebaran Panas diatas
+          permukan Jupiter
+    - head: Gravitasi
+      body: Jupiter mempunyai Medan Magnet yang sangat kuat, bahkan mampu untuk menstabilkan
+        sabuk asteroid tetap dalam edaran sabuknya. Jupiter menerima 300 kali hantaman
+        Meteor daripada Bumi, sehingga ia sangat membantu melindungi Planet dalam
+        dari Bahaya serbuan meteor dari Luar. Disebelah Kiri dan Kanannya, terdapat
+        medan magnet yang menangkap asteroid (trojan) disekitarnya.
+      images:
+      - path: jupiter/Hubble_Captures_Vivid_Auroras_in_Jupiter's_Atmosphere
+        wikiLink: Hubble_Captures_Vivid_Auroras_in_Jupiter's_Atmosphere.jpg
+        caption: Aurora diatas Atmosfer Jupiter
+      - path: jupiter/Hs-2009-23-crop
+        wikiLink: Hs-2009-23-crop.jpg
+        caption: Bekas hantaman Meteor pada Jupiter di tahun 2009
+    - head: Satelit
+      body: Jupiter diketahui mempunyai 67 Satelit yang mengitarinya. Keempat satelit
+        terbesarnya, yaitu Io, Europa, Ganymede, dan Callisto dinamakan sebagai satelit
+        gallilean, dan mereka ditemukan sejak abad ke-17. Ganymede adalah satelit
+        terbesar dan Terberat di Tata surya, dengan diameter yang 8% lebih besar dari
+        Merkurius dan 2 kali lebih berat dari Bulan.
+      images:
+      - path: jupiter/lossy-page1-1830px-The_Galilean_satellites_(the_four_largest_moons_of_Jupiter).tif
+        wikiLink: lossy-page1-1830px-The_Galilean_satellites_(the_four_largest_moons_of_Jupiter).tif
+        caption: Keempat Satelit Jupiter Terbesar, Satelit Gallilean, beserta perbandingan
+          dalam ukuran satelit.
+      - path: jupiter/PIA02879_-_A_New_Year_for_Jupiter_and_Io
+        wikiLink: PIA02879_-_A_New_Year_for_Jupiter_and_Io.jpg
+        caption: Io diatas Jupiter oleh Cassini
+    - head: Cincin
+      body: Jupiter dan 3 planet gas lainnya diketahui mempunyai cincin yang terdiri
+        atas bongkahan dan partikel kecil yang tersusun atas debu dan es. Tidak seperti
+        Saturnus, cincin Jupiter hanya tersusun atas debu, sehingga ia terlihat redup,
+        bahkan tidak terdeteksi di teleskop rumahan. Cincin Jupiter membentang dari
+        92.000 hingga 226.000 km diatas permukaan Jupiter, dan terbagi menjadi 4 kelompok.
+      images:
+      - path: jupiter/PIA01627_Ringe
+        wikiLink: PIA01627_Ringe.jpg
+        caption: Skema Cincin Jupiter
+    - head: Eksplorasi
+      body: Jupiter pertama kali dikunjungi (Flyby) oleh Pioneer 1 dan 2 pada 1973
+        dan 1974, lalu disusul Voyager 1 dan 2 pada 1979. Pesawat lain yang mampir
+        ke Jupiter diantara Ulysses (1992), Cassini (2000), dan New Horizons (2007).
+        Dari banyaknya satelit yang mengunjunginya, hanya 2 satelit yang menjalankan
+        misi orbit, yaitu Gallileo (1995-2003), dan Juno (2016-sekarang). Juno adalah
+        satu-satunya Satelit yang masih menjalankan misinya di Jupiter saat ini. Dimungkinkan
+        masih ada misi lainnya terkait Jupiter pada tahun 2020-an.
+      images:
+      - path: jupiter/Artwork_Galileo-Io-Jupiter
+        wikiLink: Artwork_Galileo-Io-Jupiter.JPG
+        caption: Gallileo, Pesawat Pengorbit Jupiter Pertama
+      - path: jupiter/Portrait_of_Jupiter_from_Cassini
+        wikiLink: Portrait_of_Jupiter_from_Cassini.jpg
+        caption: Mosaik Jupiter oleh Cassini
+      - path: jupiter/JUNO_-_PIA13746
+        wikiLink: JUNO_-_PIA13746.jpg
+        caption: Gambar Fiktif Juno diatas Jupiter
+      - path: jupiter/Juno's_interplanetary_trajectory_en.svg
+        wikiLink: Juno's_interplanetary_trajectory_en.svg
+        caption: Bagaimana Juno (dan pesawat antariksa lain) menghampiri Jupiter
+    moons:
+    - id: io
+      label: Io
+    - id: europa
+      label: Europa
+    - id: ganymede
+      label: Ganymede
+    - id: callisto
+      label: Callisto
+  - id: saturn
+    name: Saturnus
+    points:
+    - head: Ciri Fisik
+      body: Saturnus adalah sebuah planet di tata surya dan merupakan planet terbesar
+        kedua di tata surya setelah Jupiter. Ia dikenal sebagai planet bercincin,
+        karena mempunyai cincin yang cukup jelas untuk dilihat melalui teleskop. Saturnus
+        berwarna kuning pucat karena zat kristal Amonia, dan memiliki garis pita dipermukaannya
+        meskipun tak terlalu terlihat dipandangan mata.
+      images:
+      - path: saturn/Backlit_Saturn_from_Cassini_Orbiter_2007_May_9
+        wikiLink: Backlit_Saturn_from_Cassini_Orbiter_2007_May_9.jpg
+        caption: Mosaik Saturnus dibawah Sinar Matahari
+    - head: Orbit
+      body: Jarak Saturnus adalah 2 kali jarak Jupiter terhadap matahari. Saturnus
+        berevolusi dalam waktu 29,46 tahun. Setiap 378 hari, Bumi, Saturnus dan Matahari
+        akan berada dalam satu garis lurus. Selain berevolusi, Saturnus juga berotasi
+        dalam waktu yang relatif singkat, yaitu 10 jam 40 menit 24 detik. Ia juga
+        mempunyai kemiringan yang memadai, sehingga permukaannya juga ikut mengalami
+        musim tahunan layaknya dibumi.
+      images:
+      - path: 
+        wikiLink: 
+        caption: 
+    - head: Pengamatan dari Bumi
+      body: Saturnus masih bisa terlihat meskipun jaraknya yang cukup jauh. Ia adalah
+        planet terakhir yang bisa dilihat tanpa bantuan optik apapun. Dengan memakai
+        teleskop, cincin dan beberapa satelitnya bisa terlihat jelas dilangit. Saturnus
+        dilangit terlihat sebagai bintang kekuningan dengan magnitudo tampak diantara
+        0 hingga +1.
+      images:
+      - path: saturn/Saturn-27-03-04
+        wikiLink: Saturn-27-03-04.jpeg
+        caption: Saturnus melalui Teleskop. Cincin Saturnus bisa terlihat jelas dengan
+          Teleskop
+      - path: saturn/Earth-Moon_system_as_seen_from_Saturn_(PIA17171)
+        wikiLink: Earth-Moon_system_as_seen_from_Saturn_(PIA17171).jpg
+        caption: Bumi terlihat sebagai bintang biru dari Saturnus
+    - head: Komposisi
+      body: Saturnus termasuk planet gas yang tersusun atas hidrogen dan helium. Meskipun
+        ia yang terbesar kedua, ia juga mempunyai kerapatan yang sangat rendah, bahkan
+        mampu mengapung di air (secara teoritis). Meskipun renggang, bagian intinya
+        tetap dalam keadaan padat, dengan suhu mencapai 11.000 K, dan terbungkus oleh
+        Mantel berhidrogen Cair.
+      images:
+      - path: saturn/Saturn_diagram.svg
+        wikiLink: Saturn_diagram.svg
+        caption: Bagan Komposisi, Cincin, dan Satelit Saturnus
+    - head: Permukaan
+      body: Sama seperti Jupiter, Tak ada daratan di Permukaan saturnus, dan juga
+        mempunyai pita awan di Atmosfernya. Atmosfernya bergerak dengan angin yang
+        berhembus hingga 1800 km/jam. Ia pernah mempunyai badai yang berupa Bintik
+        Putih Raksasa saat pengunjungan Cassini pada tahun 2007. Di bagian kutub utara
+        dan selatan, terdapat badai siklon yang menyerupai bumi, namun dibagian utara,
+        ia membentuk badai yang berbentuk segi-enam.
+      images:
+      - path: saturn/Saturn_Storm
+        wikiLink: Saturn_Storm.jpg
+        caption: Badai di Saturnus pada 2011
+      - path: saturn/Looking_saturn_in_the_eye
+        wikiLink: Looking_saturn_in_the_eye.jpg
+        caption: Badai di Kutub Selatan Saturnus
+      - path: saturn/PIA18274-Saturn-NorthPolarHexagon-Cassini-20140402
+        wikiLink: PIA18274-Saturn-NorthPolarHexagon-Cassini-20140402.jpg
+        caption: Awan Segienam di Kutub Utara Saturnus
+    - head: Atmosfer
+      body: "Atmosfer saturnus mengandung 96% Hidrogen dan 3% Helium, sisanya adalah
+        elemen logam berat. Meskipun kecil, logam berat tersebut mempunyai massa 19-31
+        kali massa Bumi. Suhu permukaan rata-ratanya \u2212185 \xB0C, namun karena
+        badai, kutub selatannya menimbulkan panas, dan mempunyai suhu sekitar \u2212122
+        \xB0C, diyakini sebagai lokasi permukaan Saturnus yang paling panas."
+      images:
+      - path: 
+        wikiLink: 
+        caption: 
+    - head: Satelit
+      body: Sedikitnya ada 150 Satelit yang mengitari Saturnus, dan 53 diantaranya
+        telah diberi nama. Dari semua itu, ada 7 Satelit utama, termasuk Titan. Titan
+        menyusun 96% massa seluruh Satelit Saturnus, dan satu-satunya satelit yang
+        mempunyai Atmosfer yang tebal. Ada kemungkinan bahwa ada masih banyak satelit
+        disekitar cincin saturnus yang kita kenal sebagai <i>moonlet</i>
+      images:
+      - path: saturn/Titan_in_natural_color_Cassini
+        wikiLink: Titan_in_natural_color_Cassini.jpg
+        caption: Titan, satelit Terbesar Saturnus dengan Atmosfirnya yang Tebal
+      - path: 
+        wikiLink: 
+        caption: Beberapa satelit terbesar Saturnus
+      - path: saturn/PIA17184_rot180_inset_PIA14658_rot38
+        wikiLink: PIA17184_rot180_inset_PIA14658_rot38.jpg
+        caption: Geyser dari Enceladus, yang diduga sebagai Sumber Material Cincin
+          Saturnus terluar
+      - path: saturn/PIA18078-PossibleBeginning-NewMoonOfPlanetSaturn-20130415
+        wikiLink: PIA18078-PossibleBeginning-NewMoonOfPlanetSaturn-20130415.jpg
+        caption: Beberapa moonlet ada diantara cincin saturnus, dan membuat kemungkinan
+          adanya satelit baru di Saturnus
+    - head: Cincin
+      body: Cincin Saturnus adalah yang paling jelas dibandingkan Cincin planet lainnya
+        dan cukup bisa dilihat dengan menggunakan teleskop rumahan. Cincin ini tersusun
+        atas Partikel Es dan membentang 6.630 km hingga 120.700 km diatas permukaan
+        Saturnus. Cincin Saturnus dibagi menjadi Beberapa Grup menurut pola garis
+        yang ditampikannya. Penelitian terkini menunjukkan ada suatu cincin tersembunyi
+        yang berjarak 20 kali lebih besar dari cincin yang tampak.
+      images:
+      - path: saturn/PIA17172_Saturn_eclipse_mosaic_bright_crop
+        wikiLink: PIA17172_Saturn_eclipse_mosaic_bright_crop.jpg
+        caption: Saturnus saat Cassini berada dibayangannya, memunculkan atmosfir
+          dan semua bagian dari Cincin Saturnus
+      - path: saturn/Saturn's_ring_plane
+        wikiLink: Saturn's_ring_plane.jpg
+        caption: Pembagian grup dari Cincin Saturnus
+      - path: saturn/Saturn_Ring_Material
+        wikiLink: Saturn_Ring_Material.jpg
+        caption: Gambar fiktif dari material Cincin Saturnus yang penuh dengan partikel
+          es
+    - head: Eksplorasi
+      body: Eksplorasi Saturnus oleh satelit antariksa sangatlah sedikit daripada
+        Jupiter. Saturnus pertama kali didekati (flyby) oleh Pioneer 11 pada September
+        1979, dan menghasilkan foto jarak dekat pertama Saturnus. Tahun berikutnya,
+        Voyager 1 mengunjungi Saturnus untuk kedua kalinya pada 1980, dan disusul
+        Voyager 2 pada 1981. Dari ketiga itu semua, Cassini-Huygens adalah Satelit
+        pertama yang mengorbit Saturnus. Ia tiba di Saturnus pada 2004 dan masih beroperasi
+        hingga sekarang.
+      images:
+      - path: saturn/P11saturnb
+        wikiLink: P11saturnb.jpg
+        caption: Gambar jarak dekat Saturnus pertama oleh Pioneer 11
+      - path: saturn/NASA-Cassini-Saturn-TitanFlybyTests-20140617
+        wikiLink: NASA-Cassini-Saturn-TitanFlybyTests-20140617.jpg
+        caption: Gambar Fiktif Cassini-Huygens didekat Saturnus
+    moons:
+    - id: mimas
+      label: Mimas
+    - id: enceladus
+      label: Enceladus
+    - id: tethys
+      label: Tethys
+    - id: dione
+      label: Dione
+    - id: rhea
+      label: Rhea
+    - id: titan
+      label: Titan
+    - id: iapetus
+      label: Iapetus
+  - id: uranus
+    name: Uranus
+    points:
+    - head: Ciri Fisik
+      body: Diantara keempat planet gas di tata surya, uranus adalah yang paling ringan.
+        Tidak seperti Jupiter & Saturnus, uranus berwarna biru disebabkan lapisan
+        kristal metana yang ada di bagian luar Atmosfernya. Dibanding dari Planet
+        Gas lainnya, Aktivitas Atmosfernya tak terlihat dari spektrum warna, sehingga
+        ia terlihat sangat monoton dan hanya terselubungi oleh awan biru yang tebal.
+      images:
+      - path: uranus/Uranus2
+        wikiLink: Uranus2.jpg
+        caption: Uranus oleh Voyager 2. Seluruh permukaannya terlihat monoton
+    - head: Orbit
+      body: Uranus berputar selama 17 jam 14 menit dan Membutuhkan 84 Tahun untuk
+        berevolusi mengelilingi matahari. Uranus berjarak 20 AU dari Matahari, sehingga
+        membutuhkan 2.66 Jam untuk Cahaya matahari sampai di permukaan. Tidak seperti
+        planet lainnya, Uranus memiliki kemiringan sebesar 98, sehingga ia terlihat
+        berputar ke samping.
+      images:
+      - path: 
+        wikiLink: 
+        caption: 
+    - head: Pengamatan dari Bumi
+      body: "Neptunus terlalu redup untuk dilihat oleh kasat mata, dan cukup sulit
+        untuk diteliti melalui Teleskop. Karena Neptunus cukup kecil untuk dilihat
+        oleh teleskop, ia adalah satu-satunya Planet yang ditemukan berdasarkan prediksi
+        Matematika. Diameter Angularnya sekitar 2.3 arcsekon atau 0,00068\xB0 dilangit,
+        cukup kecil hingga ia hanya terlihat sebagai titik biru diangkasa."
+      images:
+      - path: 
+        wikiLink: 
+        caption: 
+    - head: Komposisi
+      body: Komposisi Uranus seperti Neptunus, dan Keduanya mempunyai komposisi yang
+        sangat berbeda. Oleh karena itu, beberapa peneliti menyebut keduanya sebagai
+        <i>Planet Es Raksasa</i>. Kerapatan Uranus adalah yang terendah kedua, setelah
+        Saturnus. Ini juga berarti Uranus kebanyakan tersusun atas Es, Amonia, dan
+        Metana. sekitar 10% adalah Hidrogen dan Helium, dan sisanya adalah zat batu
+        yang berada didalam Intinya.
+      images:
+      - path: uranus/Uranus_diagram.svg
+        wikiLink: Uranus_diagram.svg
+        caption: Struktur Internal beserta fitur diluar Uranus
+    - head: Permukaan & Atmosfer
+      body: Seperti planet gas lainnya, ia tidak mempunyai permukaan yang padat, namun
+        Uranus tak mempunyai fitur permukaan apapun, karena tertutupi oleh Awan metana
+        yang tebal. Meskipun demikian, ia tetap mempunyai awan yang berlapis-lapis,
+        dan angin yang berhembus kencang berkecepatan hingga 900 km/jam. Unsur metana
+        memantulkan hampir seluruh spektrum cahaya, sehingga sedikit energi yang terserap.
+        Diperkirakan suhu atmosfernya mencapai ..., yang terdingin daripada Atmosfer
+        planet Lainnya
+      images:
+      - path: uranus/Uranuslight
+        wikiLink: Uranuslight.jpg
+        caption: Gambar komposit Uranus dengan Aurora kecil dan cincin diatas pemukaannya
+    - head: Satelit
+      body: Uranus mempunyai 27 Satelit yang mengelilinya. dari 27 Satelit tersebut,
+        5 diantara adalah yang terbesar, yaitu Miranda, Ariel, Umbriel, Titania, dan
+        Oberon. Titania adalah yang terbesar, dan menduduki 40% massa dari seluruh
+        Satelit Uranus, meskipun masih 1/2 dari diameter Bulan, dan merupakan Satelit
+        terbesar ke delapan.
+      images:
+      - path: uranus/Uranian_moon_montage
+        wikiLink: Uranian_moon_montage.jpg
+        caption: 5 Satelit terbesar Uranus
+      - path: uranus/Masses_of_Uranian_moons-en.svg
+        wikiLink: Masses_of_Uranian_moons-en.svg
+        caption: Proporsi Massa dari Satelit Uranus. Satelit selain kelima terbesar
+          hanya mengisi 0.1% saja
+    - head: Cincin
+      body: Cincin uranus terlihat tipis, dan buram, karena ia terdiri dari partikel
+        yang sangat gelap, dan berukuran dari beberapa mikrometer, hingga pecahan
+        Meter. Cincin tersebut terbagi menjadi 13 lapisan, dan hanya 2 lapisan saja
+        yang mempunyai lebar yang cukup panjang dan tebal. Semua cincin Uranus membentang
+        mulai dari 260.00 km hingga 103.000 km diatas permukaan Uranus.
+      images:
+      - path: uranus/Uranian_rings_PIA01977
+        wikiLink: Uranian_rings_PIA01977.jpg
+        caption: Foto cincin (dan aurora) dari Uranus
+      - path: uranus/Uranusandrings
+        wikiLink: Uranusandrings.jpg
+        caption: Foto Cincin Uranus melalui Citra UV
+      - path: uranus/Uranian_rings_scheme
+        wikiLink: Uranian_rings_scheme.png
+        caption: Skema letak Cincin dan satelit Uranus yang cukup kompleks
+    - head: Eksplorasi
+      body: Uranus hanya dikunjungi oleh Voyager 2 pada tahun 1986. Sebenarnya Voyager
+        1 juga direncanakan untuk mengunjungi Uranus, tetapi dialihkan untuk menyelidi
+        Satelit Saturnus, Titan. Dalam perjalanannya ia menemukan beberapa Satelit
+        kecil dan lapisan cincin yang cukup tipis. Setelah mengambil data dari Uranus
+        beserta satelit-satelitnya, ia melanjutkan perjalanannya ke Neptunus pada
+        tahun yang sama
+      images:
+      - path: uranus/Voyager_spacecraft
+        wikiLink: Voyager_spacecraft.jpg
+        caption: Gambar Fiktif Pesawat Voyager. Kedua Voyager 1 dan 2 mempunyai bentuk
+          yang identik
+      - path: 
+        wikiLink: 
+        caption: Uranus oleh Voyager 2 saat meninggalkan Uranus pada ...
+    moons:
+    - id: miranda
+      label: Miranda
+    - id: ariel
+      label: Ariel
+    - id: umbriel
+      label: Umbriel
+    - id: titania
+      label: Titania
+    - id: oberon
+      label: Oberon
+  - id: neptune
+    name: Neptunus
+    points:
+    - head: Ciri Fisik
+      body: Neptunus adalah planet terbesar keempat, terberat ketiga, dan terjauh
+        dari kesemua planet tata surya. Dari keempat planet gas, neptunus adalah yang
+        paling keras/rapat. Massanya 17 kali dari Bumi, dan berdiameter sekitar 3800
+        kali dari Bumi. Ia berwarna biru matang, karena warna merah dari cahaya Matahari
+        terserap oleh Metana di atmosfirnya, hal serupa juga terjadi dengan Uranus.
+      images:
+      - path: neptune/Neptune_Full
+        wikiLink: Neptune_Full.jpg
+        caption: Neptunus oleh Voyager 2
+    - head: Orbit
+      body: "Neptunus adalah Planet yang Terjauh dari Matahari, dengan jarak ke matahari
+        hingga 30 AU jauhnya, sehingga cahaya membutuhkan 4 jam 22 menit untuk sampai
+        di Neptunus. Neptunus mempunyai kala revolusi sekitar 164.8 tahun, dan kala
+        rotasi sekitar 16.1 jam. Neptunus juga mempunyai inklinasi sekitar 28\xB0,
+        sama seperti Bumi dan Mars."
+      images:
+      - path: 
+        wikiLink: 
+        caption: 
+    - head: Pengamatan dari Bumi
+      body: "Neptunus terlalu redup untuk dilihat oleh kasat mata, dan cukup sulit
+        untuk diteliti melalui Teleskop. Karena Neptunus cukup kecil untuk dilihat
+        oleh teleskop, ia adalah satu-satunya Planet yang ditemukan berdasarkan prediksi
+        Matematika. Diameter Angularnya sekitar 2.3 arcsekon atau 0,00068\xB0 dilangit,
+        cukup kecil hingga ia hanya terlihat sebagai titik biru diangkasa."
+      images:
+      - path: neptune/The_four_sides_of_Neptune_(captured_by_the_Hubble_Space_Telescope).tif
+        wikiLink: The_four_sides_of_Neptune_(captured_by_the_Hubble_Space_Telescope).tif
+        caption: Keempat Sisi Neptunus terlihat dari Bumi, oleh Teleskop Hubble
+    - head: Komposisi
+      body: Neptunus adalah planet gas raksasa, sehingga ia juga tersusun atas Hidrogen
+        dan Helium. Tidak seperti Jupiter dan Saturnus, bagian intinya terdiri atas
+        Besi kecil yang kaya akan silika dan nikel besuhu hingga 5400 K. Bagian mantel
+        adalah yang paling tebal dengan massa hingga 15 kali Bumi, dan daya akan air,
+        amonia, dan es metana.
+      images:
+      - path: neptune/Another_Neptune_diagram.svg
+        wikiLink: Another_Neptune_diagram.svg
+        caption: Diagram interior beserta fitur diluar Neptunus
+    - head: Permukaan
+      body: Neptunus tak mempunyai Permukaan yang Padat, dan berwarna biru karena
+        unsur kristal Metana. Neptunus tidak seperti tetangganya, Uranus, ia mempunyai
+        beberapa pergerakan awan yang bisa terlihat dengan kasat mata. Alasan mengapa
+        Ia terlihat lebih biru dari Uranus, masih belum diketahui karena komposisi
+        Metananya setara dengan apa yang ada di Uranus.
+      images:
+      - path: 
+        wikiLink: 
+        caption: 
+    - head: Atmosfer
+      body: Komposisi Atmosfer Neptunus menyamai Uranus, namun ia mempunyai Aktivitas
+        Atmosfer yang bisa terlihat di pandangan mata. Atmosfernya bergerak dengan
+        kecepatan yang bervariasi diantara 20 hingga 400 m/s, tetapi juga ada juga
+        yang bisa menembus 600 m/s (2200 km/jam). Pada saat Voyager 2 Mengunjunginya,
+        terdapat badai antisiklon yang disebut sebagai bintik gelap raksasa. Bintik
+        tersebut menyerupai Bintik yang ada di Jupiter, meskipun ia tak akan bertahan
+        lama.
+      images:
+      - path: neptune/Neptune_clouds
+        wikiLink: Neptune_clouds.jpg
+        caption: Salah satu tampilan dari awan Neptunus
+    - head: Satelit
+      body: Neptunus memiliki 13 satelit yang mengelilinginya. Satu diantaranya adalah
+        yang terbesar, yaitu Triton. Triton itu sangat besar, bahkan memenuhi 99,5%
+        massa dari seluruh Satelit Neptunus. Beberapa peneliti menyingkap bahwa semua
+        satelit Neptunus, termasuk triton, adalah sebuah anggota dari Sabuk Kuiper,
+        dan tertangkap oleh Gravitasi Neptunus.
+      images:
+      - path: neptune/Triton_moon_mosaic_Voyager_2_(large)
+        wikiLink: Triton_moon_mosaic_Voyager_2_(large).jpg
+        caption: Triton, satu-satunya satelit ttama dan terbesar Neptunus
+      - path: neptune/Neptune-visible
+        wikiLink: Neptune-visible.jpg
+        caption: Tiga satelit terbesar dalam teleskop
+    - head: Cincin
+      body: Cincin Neptunus lebih gelap dari Cincin Uranus, sehingga ia tersusun atas
+        Debu dan Es. Ia tak terlihat oleh Teleskop rumahan, dan baru terbukti keberadaannya
+        saat Voyager 2 mendekatinya. Cincin Neptunus terbagi menjadi 5 bagian, dan
+        mempunyai ketebalan 2000-5000 km. Beberapa satelit Neptunus juga bisa berada
+        ditengah-tengah cincin tersebut.
+      images:
+      - path: neptune/Neptunerings
+        wikiLink: Neptunerings.jpg
+        caption: Citra Cincin Neptunus dari Voyager 2
+    moons:
+    - id: triton
+      label: Triton
+  - id: pluto
+    name: Pluto
+    points:
+    - head: Ciri Fisik
+      body: Pluto adalah Planet Kerdil yang Terbesar, dan Terberat Kedua setelah Eris.
+        Ia termasuk Planet Kerdil, dikarenakan ia membagi orbitnya dengan sesama Anggota
+        Sabuk Kuiper, sehingga ia bukan lagi dianggap sebagai Planet. Pluto 6 kali
+        lebih ringan dari Bulan, dan mempunyai warna yang beragam, dari coklat kehitaman
+        hingga jingga keputihan.
+      images:
+      - path: pluto/Nh-pluto-in-true-color_2x_JPEG-edit-frame
+        wikiLink: Nh-pluto-in-true-color_2x_JPEG-edit-frame.jpg
+        caption: Pluto saat dipotret oleh wahana angkasa New Horizons pada Juli 2015
+    - head: Orbit
+      body: Orbitnya terpengaruh oleh Neptunus, sehingga kala revolusinya adalah 248
+        Tahun, atau 1,5 kali kala revolusi Neptunus. Tidak seperti Planet-planet lainnya,
+        Orbit pluto itu cukup Ekstrim, dengan angka eksentritas dan sudut inklinasi
+        yang tinggi. Dari atas, orbitnya terlihat bersinggungan dengan Neptunus, tetapi
+        sebenarnya tidak. Jarak minimal pluto dan Neptunus adalah 17 AU, sehingga
+        mereka tak akan bertabrakan, meskipun ada kemungkinan bahwa jalur orbitnya
+        yang sedikit terganggu oleh Neptunus.
+      images:
+      - path: pluto/Pluto-Charon_double_planet
+        wikiLink: Pluto-Charon_double_planet.png
+        caption: Pluto dan Charon sama-sama mengorbit disatu titik diantara kedua
+          planet
+      - path: pluto/TheKuiperBelt_Orbits_Pluto_Polar.svg
+        wikiLink: TheKuiperBelt_Orbits_Pluto_Polar.svg
+        caption: Orbit Pluto vs Neptunus. Meskipun dari atas mereka terlihat menyinggung,
+          inklinasi Pluto jauh lebih besar dari Neptunus
+      - path: pluto/TheKuiperBelt_classes-en.svg
+        wikiLink: TheKuiperBelt_classes-en.svg
+        caption: Resonansi Orbit Pluto terhadap Neptunus
+    - head: Pengamatan dari Bumi
+      body: Pluto adalah salah satu dari ribuan anggota dari Sabuk Kuiper, Ia mempunyai
+        magnitudo tampak sekitar 14, sehingga mulai dari Pluto, diperlukan teleskop
+        untuk bisa melihatnya. Pluto ditemukan karena aktivitas gravitasi yang mengganggu
+        kedua planet, Uranus dan Neptunus. Charon tak mudah terlihat dengan Teleskop
+        rumahan, namun ia tetap bisa dilihat jika teleskop mempunyai kapasitas resolusi
+        yang tinggi.
+      images:
+      - path: pluto/PIA18179_d-Pluto270-Hubble2003-20100204
+        wikiLink: PIA18179_d-Pluto270-Hubble2003-20100204.jpg
+        caption: Sebelum New Horizons, Ini adalah Gambar terbaik Pluto yang kita punya
+          dari Teleskop Hubble yang diambil pada tahun 2003
+    - head: Komposisi & Permukaan
+      body: Pluto, sama seperti Charon, diperkirakan adalah Planet keras berbatu yang
+        atas Inti yang Keras, tersusun atas material batu, mantel yang dipenuhi dengan
+        es, dan kerak yang tersusun atas 98% nitrogen beku, metana, dan karbon monoksida.
+        Keduanya mempunyai permukaan yang keras berbatu dan bervariasi menurut warna
+        dan komposisi disetiap titik permukaan yang berbeda.
+      images:
+      - path: pluto/Internal_Structure_of_Pluto
+        wikiLink: Internal_Structure_of_Pluto.jpg
+        caption: Struktur Internal Pluto berdasarkan hasil penelitian dari New Horizons
+      - path: pluto/PIA19947-NH-Pluto-Norgay-Hillary-Mountains-2050714
+        wikiLink: PIA19947-NH-Pluto-Norgay-Hillary-Mountains-2050714.jpg
+        caption: Foto terdekat Pluto oleh New Horizons berhasil merekam struktur permukaannya
+          dari jarak dekat
+    - head: Atmosfer
+      body: "Meskipun Kecil, ia mempunyai Atmosfer yang cukup tebal dengan ukurannya.
+        Ia mempunyai ketebalan sekitar 120 km, dan tekanan yang bervariasi diantara
+        0.3 hingga 1.0 Pa, atau sekitar 100.000 hingga 1.000.000 kali lebih lemah
+        dari Bumi. Atmosfirnya juga tersusun atas Nitrogen, Metana, dan Karbon monoksida
+        dengan Suhu permukaan yang cukup dingin, yaitu diantara 33-55 K, atau -240
+        hingga -218 \xB0C."
+      images:
+      - path: pluto/Blue_hazes_over_backlit_Pluto
+        wikiLink: Blue_hazes_over_backlit_Pluto.jpg
+        caption: Atmosfer Tebal diatas Pluto terlihat jelas dibelakang bayangan Pluto
+    - head: Satelit
+      body: Sebagai Planet Kerdil, ia mempunyai jumlah satelit yang terbanyak. Ada
+        5 Satelit di Pluto, yaitu Charon, Nix, Hydra, Kerberos dan Styx. Charon mempunyai
+        setengah diameter Pluto, dan massa 12% dari Pluto. Karena Charon cukup sebanding
+        dengan Pluto, Pluto mengorbit satu sama lain, dan mengunci dengan Charon.
+        Keempat satelit lainnya berukuran sangat kecil dengan diameter hanya beberapa
+        kilometer saja, dan baru ditemukan sejak awal abad ke-21.
+      images:
+      - path: pluto/Pluto_moon_P5_discovery_with_moons'_orbits
+        wikiLink: Pluto_moon_P5_discovery_with_moons'_orbits.jpg
+        caption: Kelima satelit terekam dari Teleskop Hubble
+      - path: pluto/Charon_in_Color_(HQ)
+        wikiLink: Charon_in_Color_(HQ).jpg
+        caption: Foto Charon, oleh New Horizons
+      - path: pluto/Nh-pluto_moons_family_portrait-truecolor
+        wikiLink: Nh-pluto_moons_family_portrait-truecolor.png
+        caption: Perbandingan ukuran kelima satelit Pluto
+    - head: Eksplorasi
+      body: Saat ini Pluto hanya dikunjungi oleh satu Satelit penyelidik, yaitu New
+        Horizons. New Horizons diluncurkan pada tahun 2006, melewati Jupiter pada
+        2007, dan tiba di titik terdekat dengan Pluto pada tanggal 14 Juli 2015. Tujuan
+        dari New Horizons tidak hanya meneliti Pluto, namun juga benda dari Sabuk
+        Kuiper lain yang ada didekatnya. Pada Akhir misinya, ia direncanakan untuk
+        meninggalkan Tata surya seperti 4 Pesawat Lainnya.
+      images:
+      - path: pluto/15-011a-NewHorizons-PlutoFlyby-ArtistConcept-14July2015-20150115
+        wikiLink: 15-011a-NewHorizons-PlutoFlyby-ArtistConcept-14July2015-20150115.jpg
+        caption: Gambar Fiktif New Horizons didekat Pluto
+      - path: pluto/Pluto_encounter
+        wikiLink: Pluto_encounter.png
+        caption: Bagaimana New Horizons melewati diatas Pluto
+    moons:
+    - id: charon
+      label: Charon
+  - id: haumea
+    name: Haumea
+    points:
+    - head: Ciri Fisik
+      body: "136108 Haumea adalah Planet kerdil yang mempunyai sepertiga massa Pluto.
+        Haumea diperkirakan berbeda dari planet lain, yaitu berbentuk lonjong bulat,
+        karena kecepatan rotasinya yang cukup tinggi, dengan dimensi sekitar 2000
+        x 1500 x 1000 km. Ia merupakan urutan planet kerdil ketiga, setelah Ceres
+        dan Pluto, dan lebih keras dari Pluto, yaitu 2.6\u20133.3 g/cm\xB3, daripada
+        pluto yang hanya 2.0 g/cm\xB3."
+      images:
+      - path: haumea/2003_EL61_Haumea,_with_moons
+        wikiLink: 2003_EL61_Haumea,_with_moons.jpg
+        caption: Haumea beserta Satelitnya ditemukan pada tahun 2003
+    - head: Orbit
+      body: Haumea memutari Matahari setiap 284 tahun sekali. Pada tahun 1992, ia
+        telah melampaui jarak terjauhnya, dan saat ini mempunyai jarak sekitar 50
+        AU. Ia berotasi selama 3.9 Jam, sangat cepat sehingga Ia berbentuk lonjong.
+        Ia adalah planet kerdil ketiga yang paling cerah, sehingga pada malam yang
+        cerah, ia bisa terlihat melalui teleskop.
+      images:
+      - path: haumea/TheKuiperBelt_Orbits_2003EL61.svg
+        wikiLink: TheKuiperBelt_Orbits_2003EL61.svg
+        caption: Orbit Haumea (Kuning) dan Orbit Pluto (Merah)
+    - head: Komposisi & Permukaan
+      body: "Tidak banyak yang diketahui tentang Haumea, namun ia dipercaya tersusun
+        atas planet keras berbatu dan mempunyai permukaan yang terselimuti oleh Es
+        seputih Salju. Permukaannya berwarna putih, dengan beberapa variasi oleh warna
+        coklat kehitaman. Suhu permukaannya dihitung dan diperkirakan sekitar 32 K,
+        -241 \xB0C, namun di Beberapa titik lainnya terdapat permukaan yang tersusun
+        atas kristal es yang dapat mencapai 110 K."
+      images:
+      - path: haumea/2003EL61art
+        wikiLink: 2003EL61art.jpg
+        caption: Gambar Fiktif Haumea beserta Satelitnya
+    - head: Satelit
+      body: Dua satelit kecil Haumea ditemukan, dan masing-masing dinamakan Hi'iaka
+        dan Namaka. Hi'iaka enam kali lebih besar, namun lebih jauh ke Haumea daripada
+        Namaka. Hi'iaka mempunyai diameter sekitar 22% dari Haumea (320 km). Meskipun
+        kecil, namun ia lebih besar dari asteroid tersebar kelima yang diketahui.
+        Hi'iaka dan Namaka masing-masing mempunyai orbit dengan kala revolusi sekitar
+        49 dan 18 hari.
+      images:
+      - path: 
+        wikiLink: 
+        caption: 
+    moons: []
+  - id: makemake
+    name: Makemake
+    points:
+    - head: Ciri Fisik
+      body: 136472 Makemake adalah planet kerdil yang termasuk anggota dari Sabuk
+        Kuiper dengan diameter sekitar dua per tiga Pluto, namun dengan massa sepertiga
+        Pluto. Ia termasuk planet kerdil keempat setelah Haumea, dengan diameter sekitar
+        1430 km, sehingga ia juga termasuk planet kerdil terbesar ketiga, selisih
+        tipis dengan Haumea (1240 km).
+      images:
+      - path: makemake/Makemake_hubble
+        wikiLink: Makemake_hubble.png
+        caption: Makemake oleh Teleskop Hubble. Ia ditemukan pada tahun 2005
+    - head: Orbit
+      body: "Orbit Makemake mengikuti bentuk yang mirip dengan Haumea, yaitu inkinasi
+        tinggi pada 29\xB0, dan angka eksentritas pada sekitar 0,16. Jarak Makemake
+        terhadap Matahari itu bervariasi mulai dari 38,5 hingga 53 AU. Makemake juga
+        mempunyai kala revolusi sekitar 310 tahun, dan kala rotasi 7,7 Jam. Makemake
+        saat ini berada pada jarak 52.3 AU, dan terus menjauh hingga puncak jarak
+        terjaunya pada tahun 2033."
+      images:
+      - path: makemake/TheKuiperBelt_Orbits_2003EL61_2005FY9.svg
+        wikiLink: TheKuiperBelt_Orbits_2003EL61_2005FY9.svg
+        caption: Orbit Makemake (Biru), Orbit Haumea (Hijau), dan Orbit Pluto (Merah).
+          Posisinya dihitung pada April 2006
+    - head: Pengamatan dari Bumi
+      body: Makemake dan Pluto adalah planet kerdil tercerah (setelah Ceres), dengan
+        masing-masing magnitudo tampak sebesar -0.3 dan -1, sehingga ia juga bisa
+        terlihat dengan teleskop dan mempunyai kecerahan yang setara dengan Pluto.
+        Pada saat malam penemuan Pluto, ia sebenarnya mudah untuk ditemukan, namun
+        karena pada saat itu (1937) ia berada sangat dekat dengan pita Galaksi Bimasakti,
+        sehingga sangat tak mungkin ia ditemukan oleh Teropong yang dimiliki Penemu
+        Pluto, Clyde Tombaugh.
+      images:
+      - path: 
+        wikiLink: 
+        caption: 
+    - head: Komposisi & Permukaan
+      body: Permukaan Makemake cukup dingin, yaitu sekitar 30 K. Permukaan Makemake
+        terlihat lebih merah dari Eris, dan diduga tersusun sebagian besar atas Metana,
+        dengan sisa yang terdiri dari Etana, Tholin dan Nitrogen Es. Makemake dipercaya
+        mempunyai Atmosfer dengan karakteristik yang sama dengan Pluto, meskipun tekanannya
+        lebih rendah.
+      images:
+      - path: makemake/Makemake_moon_artist's_view_with_legend
+        wikiLink: Makemake_moon_artist's_view_with_legend.jpg
+        caption: Gambar fiktif terhadap Makemake dan satelitnya
+    - head: Satelit
+      body: Selama satu dekade, Makemake dianggap tak mempunyai Satelit. Namun pada
+        April 2015, ia ditemukan dari sebuah Citra oleh Teleskop Hubble. Satelit ini
+        masih belum dinamai dan belum dipastikan bagaimana sifat orbitnya. Ia mempunyai
+        diameter sekitar 175-250 km, kala revolusi ddiantara 12-660 hari, dan jarak
+        yang mungkin diantara 21.000-300.000 km.
+      images:
+      - path: makemake/Makemake_moon_Hubble_image_with_legend_(cropped)
+        wikiLink: Makemake_moon_Hubble_image_with_legend_(cropped).jpg
+        caption: Gambar Hubble terkini (April 2015) menemukan Satelit Makemake.
+    moons: []
+  - id: eris
+    name: Eris
+    points:
+    - head: Ciri Fisik
+      body: Eris mempunyai Massa yang paling berat dari semua Planet kerdil lainnya.
+        Bobotnya 27% lebih berat dari Pluto. Ia juga termasuk Planet kerdil terbesar
+        kedua setelah Pluto, meskipun hanya selisih beberapa kilometer saja. Eris
+        berwarna keputihan, tidak seperti planet kerdil lainnya, yang berwarna condong
+        ke merah-merahan.
+      images:
+      - path: eris/Artist's_impression_dwarf_planet_Eris
+        wikiLink: Artist's_impression_dwarf_planet_Eris.jpg
+        caption: Perkiraan Ilmiah bentuk permukaan Eris dari ESO
+    - head: Orbit
+      body: 'Eris mempunyai orbit yang eksentrik, sehingga jaraknya bervariasi diantara
+        38 hingga 98 AU. jarak 38 AU tersebut sangat dekat bahkan bisa membawa Eris
+        lebih dekat ke Matahari daripada Pluto. Eris memutari Matahari selama 558
+        tahun. Eris pernah mencapai jarak terpendek pada tahun 1698/1699, dan jarak
+        terjauhnya pada 1977. Ia diprediksi akan mendekat kembali pada tahun 2256-2258.
+
+        Eris saat ini sedang bergerak mendekati Matahari. Meskipun demikian, ia baru
+        saja melewati jarak terjauhnya pada tahun 1977, sehingga ia sekarang berada
+        lebih jauh dari planet minor lainnya, bahkan ia juga lebih jauh dari Sedna.'
+      images:
+      - path: eris/Eris_Orbit.svg
+        wikiLink: Eris_Orbit.svg
+        caption: Plot mendetail Struktur Orbit Eris yang cukup ekstrim
+    - head: Pengamatan dari Bumi
+      body: 'Eris dibumi mempunyai magnitudo tampak sekitar +18.7, sehingga masih
+        terlihat oleh beberapa Teleskop rumahan.
+
+        Alasan mengapa ia ''baru'' ditemukan, karena hampir semua astronom fokus kepada
+        bidang ekliptik, dimana hampir semua benda angkasa bisa ditemukan. Ia juga
+        terlihat cukup terang meskipun sangat jauh, karena 96% cahaya matahari dipantulkan
+        kembali ke angkasa.'
+      images:
+      - path: eris/Eris_and_dysnomia2
+        wikiLink: Eris_and_dysnomia2.jpg
+        caption: Eris (dan Dysnomia), oleh Teleskop Hubble
+    - head: Komposisi & Permukaan
+      body: Dari sinar inframerah yang dipantulkan oleh Eris, ia diketahui tersusun
+        atas Zat metana yang membeku. Ini berbeda dari planet minor jauh lainnya,
+        seperti Pluto dan Sedna, yang berwarna kemerahan. Eris terlihat putih, dikarenakan
+        kandungan metana yang ada dipermukaannya membeku. Karena Eris mempunyai jarak
+        yang bervariasi, ia mempunyai suhu permukaan yang bervariasi, dari suhu 30
+        hingga 55 K.
+      images:
+      - path: 
+        wikiLink: 
+        caption: 
+    - head: Satelit
+      body: Eris hanya mempunyai Satu Satelit, yang dinamakan sebagai Dysnomia. Dysnomia
+        terlihat lebih dari 60 kali lebih redup daripada Eris, dengan berdiameter
+        diantara 350 hingga 490 km saja. Ia mengorbit hampir secara sirkular dengan
+        periode orbit hingga 15.8 hari dan jarak rata-rata 37350 km terhadap Eris.
+        Massa Eris bisa diperkirakan berkat adanya satelit Dysnomia ini.
+      images:
+      - path: 
+        wikiLink: 
+        caption: 
+    - head: Sejarah Penemuan
+      body: Eris telah ditemukan oleh Mike Brown beserta timnya pada 5 Januari 2005,
+        menggunakan citra yang mereka tangkap pada 21 Oktober 2003. Namun, mereka
+        tidak mengumumkannya hingga semua kalkulasi orbit selesai, yaitu pada tanggal
+        Juni 2005. Setelah pengumumannya, Banyak orang menganggapnya planet kesepuluh,
+        dikarenakan ia (dulunya diperkirakan) lebih besar dari Pluto. Tanggapan ini
+        namun bertahan tidak lama, karena Eris bernasib sama dengan Pluto, yaitu dikategorikan
+        sebagai Planet Kerdil.
+      images:
+      - path: 
+        wikiLink: 
+        caption: 
+    moons:
+    - id: 
+      label: Dysnomia
+  - id: sedna
+    name: Sedna
+    points:
+    - head: Ciri Fisik
+      body: Sedna diperkirakan berdiameter sekitar 915-1075 km, sedikit lebih kecil
+        dari Satelit Pluto, Charon. Angka ketidakpastian Diameter Sedna masih cukup
+        besar, dikarenakan jaraknya yang sangat jauh. Sedna bukanlah planet, ataupun
+        Planet Kerdil, namun ia adalah benda yang menduduki salah satu kandidat yang
+        mungkin akan dikategorikan sebagai Planet Kerdil di masa mendatang.
+      images:
+      - path: sedna/Sedna_PRC2004-14d
+        wikiLink: Sedna_PRC2004-14d.jpg
+        caption: Foto terbaik Sedna yang saat ini kita punya, dari Teleskop Hubble
+      - path: sedna/Sedna-NASA
+        wikiLink: Sedna-NASA.JPG
+        caption: Sedna dibandingkan Bintang lainnya, ia terlihat lebih redup dari
+          Bintang Lainnya
+    - head: Orbit
+      body: Sedna bergerak sangat lambat, namun saat ini ia perlahan-lahan akan mendekati
+        Matahari. Ia mempunyai Orbit dengan jangka waktu terlama, yaitu sekitar 11.400
+        tahun lamanya. Sedna saat ini sedang berjarak 86 AU, dan semakin mendekat,
+        hingga masuk ke puncak jarak terdekatnya, yang diperkirakan terjadi di tahun
+        2075-an. Setelah itu ia akan menjauh, dan tak tampak lagi selama ribuan tahun
+        mendatang.
+      images:
+      - path: sedna/Sedna_orbit.svg
+        wikiLink: Sedna_orbit.svg
+        caption: Orbit Sedna sangatlah eksentrik (lonjong) daripada Planet lainnya.
+    - head: Komposisi & Permukaan
+      body: Sedna sebagian besar tersusun atas es metana dan air dengan kemungkinan
+        besar juga metanol, nitrogen, dan tholin. Tholin inilah yang diperkirakan
+        membuat permukaannya terlihat memerah, meskipun tidak semerah Mars. Suhu permukaannya
+        diperkirakan hanya mencapai 12-35 K. Keberadaan Nitrogen di Sedna membuat
+        planet ini mungkin mempunyai atmosfir yang tebal.
+      images:
+      - path: 
+        wikiLink: 
+        caption: 
+    - head: Gravitasi & Asal Mula
+      body: Dari bumi, kita bisa mengukur diameternya secara mendetail, tetapi tidak
+        untuk Massanya. Karena Sedna tidak memiliki satelit apapun, massanya tak bisa
+        diperkirakan tanpa mengirim satu penjelajah angkasa. Meskipun demikian, dari
+        bentuk orbitnya, Sedna diperkirakan berasal dari kumpulan debu dari Awan Oort
+        yang berjarak ribuan AU. Beberapa pendapat bahkan mengatakan bahwa ia berasal
+        dari sistem planetari lainnya.
+      images:
+      - path: 
+        wikiLink: 
+        caption: 
+    moons: []

@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Mars
+  m_Shader: {fileID: 4800000, guid: 3eec00ca79d84fc429d71ea7f01fd2d2, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+    - first:
+        name: _BumpMap
+      second:
+        m_Texture: {fileID: 2800000, guid: 6a44b29770815934e8b4561e1bcd4f8d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _MainTex
+      second:
+        m_Texture: {fileID: 2800000, guid: 38207e46fac9548488e06df93e611950, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _ParallaxMap
+      second:
+        m_Texture: {fileID: 2800000, guid: 5ab19ff250701bd419ef298b0b40483b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - first:
+        name: _AtmosFalloff
+      second: 3
+    - first:
+        name: _BumpScale
+      second: 1
+    - first:
+        name: _Falloff
+      second: 4.8
+    - first:
+        name: _Falloff2
+      second: 0.09
+    - first:
+        name: _Falloff3
+      second: 0.238
+    - first:
+        name: _FalloffPlanet
+      second: 3
+    - first:
+        name: _Parallax
+      second: 0.005
+    - first:
+        name: _RimAbs
+      second: 3
+    - first:
+        name: _RimExpo
+      second: 1
+    - first:
+        name: _RimPower
+      second: 1
+    - first:
+        name: _Shininess
+      second: 0.175
+    - first:
+        name: _Size
+      second: 0.12
+    - first:
+        name: _Transparency
+      second: 20.33
+    - first:
+        name: _TransparencyPlanet
+      second: 1.05
+    m_Colors:
+    - first:
+        name: _AtmoColor
+      second: {r: 0.75294125, g: 0.49424317, b: 0.26666665, a: 1}
+    - first:
+        name: _AtmosFar
+      second: {r: 0.4557808, g: 0.5187039, b: 0.9850746, a: 1}
+    - first:
+        name: _AtmosNear
+      second: {r: 0.1686275, g: 0.7372549, b: 1, a: 1}
+    - first:
+        name: _Color
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _RimColor
+      second: {r: 0.876, g: 0.72008806, b: 0.536112, a: 0}
+    - first:
+        name: _SpecColor
+      second: {r: 0.5, g: 0.5, b: 0.5, a: 1}
