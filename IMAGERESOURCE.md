@@ -1,6 +1,8 @@
 Petunjuk: Semua gambar merujuk pada server Wikipedia Commons. Jadi misal ../Anatomy_of_a_Sunset-2.jpg, maka alamat aslinya ialah http://en.wikipedia.org/wiki/File:Anatomy_of_a_Sunset-2.jpg
  
-# Matahari (sun)    ../The_Sun_by_the_Atmospheric_Imaging_Assembly_of_NASA's_Solar_Dynamics_Observatory_-_20100819.jpg
+## Matahari (sun)      
+```
+   ../The_Sun_by_the_Atmospheric_Imaging_Assembly_of_NASA's_Solar_Dynamics_Observatory_-_20100819.jpg
    ../Anatomy_of_a_Sunset-2.jpg
    ../STS-134_EVA4_view_to_the_Russian_Orbital_Segment.jpg
    ../Sun_poster.svg
@@ -24,7 +26,9 @@ Petunjuk: Semua gambar merujuk pada server Wikipedia Commons. Jadi misal ../Anat
    ../Aldrin_Next_to_Solar_Wind_Experiment_-_GPN-2000-001211.jpg
    ../Ulysses_-_artist_rendering_-_b02.jpg
    ../Interstellar_probes_(cropped).jpg
-# Merkurius (mercury)
+```
+## Merkurius (mercury)
+```
    ../Mercury_as_Never_Seen_Before.jpg
    ../Terrestrial_planets_size_comparison.png
    ../ThePlanets_Orbits_Mercury_PolarView.svg
@@ -44,7 +48,9 @@ Petunjuk: Semua gambar merujuk pada server Wikipedia Commons. Jadi misal ../Anat
    ../Mercury.jpg
    ../MESSENGER_-_spacecraft_at_mercury_-_atmercury_lg.jpg
    ../MESSENGER_Assembly.jpg
-# Venus (venus)
+```
+## Venus (venus)
+```
    ../Venus-real_color.jpg
    ../Venus,_Earth_size_comparison.jpg
    ../Venusorbitsolarsystem.gif
@@ -65,7 +71,9 @@ Petunjuk: Semua gambar merujuk pada server Wikipedia Commons. Jadi misal ../Anat
    ../Mariner_2.jpg
    ../Venera9.png
    ../Magellan_deploy.jpg
-# Bumi (earth)
+```
+## Bumi (earth)
+```
    ../The_Earth_seen_from_Apollo_17.jpg
    ../AxialTiltObliquity.png
    ../North_season.jpg
@@ -101,7 +109,9 @@ Petunjuk: Semua gambar merujuk pada server Wikipedia Commons. Jadi misal ../Anat
    ../Hubble_01.jpg
    ../Space_Shuttle_Columbia_launching.jpg
    ../Debris-GEO1280.jpg
-# Mars (mars)
+```
+## Mars (mars)
+```
    ../Mars_Hubble.jpg
    ../PIA19396-PlanetMars-OrbitsOfMoonsAndOrbiters-20150504.jpg
    ../Apparent_retrograde_motion_of_Mars_in_2003.gif
@@ -127,7 +137,9 @@ Petunjuk: Semua gambar merujuk pada server Wikipedia Commons. Jadi misal ../Anat
    ../Mars_Pathfinder_Lander_preparations.jpg
    ../Curiosity_Self-Portrait_at_'Big_Sky'_Drilling_Site.jpg
    ../PIA15279_3rovers-stand_D2011_1215_D521.jpg
-# Ceres (ceres)
+```
+## Ceres (ceres)
+```
    ../PIA19562-Ceres-DwarfPlanet-Dawn-RC3-image19-20150506.jpg
    ../Asteroidsscale.jpg
    ../Ceres_Orbit.svg.png
@@ -136,7 +148,9 @@ Petunjuk: Semua gambar merujuk pada server Wikipedia Commons. Jadi misal ../Anat
    ../Ceres_-_RC3_-_Haulani_Crater_(22381131691)_(cropped).jpg
    ../PIA20350_crop_-_Occator_from_LAMO.jpg
    ../Dawn_Flight_Configuration_2.jpg
-# Yupiter (jupiter)
+```
+## Yupiter (jupiter)
+```
    ../Jupiter_on_2009-07-23_(captured_by_the_Hubble_Space_Telescope).jpg
    ../SolarSystem_OrdersOfMagnitude_Sun-Jupiter-Earth-Moon.jpg
    ../Masses_of_the_planets_en.svg.png
@@ -159,7 +173,9 @@ Petunjuk: Semua gambar merujuk pada server Wikipedia Commons. Jadi misal ../Anat
    ../Portrait_of_Jupiter_from_Cassini.jpg
    ../JUNO_-_PIA13746.jpg
    ../Juno's_interplanetary_trajectory_en.svg
-# Saturnus (saturn)
+```
+## Saturnus (saturn)
+```
    ../Backlit_Saturn_from_Cassini_Orbiter_2007_May_9.jpg
    ../
    ../Saturn-27-03-04.jpeg
@@ -178,7 +194,9 @@ Petunjuk: Semua gambar merujuk pada server Wikipedia Commons. Jadi misal ../Anat
    ../Saturn_Ring_Material.jpg
    ../P11saturnb.jpg
    ../NASA-Cassini-Saturn-TitanFlybyTests-20140617.jpg
-# Uranus (uranus)
+```
+## Uranus (uranus)
+```
    ../Uranus2.jpg
    ../Uranus_diagram.svg
    ../Uranuslight.jpg
@@ -189,7 +207,9 @@ Petunjuk: Semua gambar merujuk pada server Wikipedia Commons. Jadi misal ../Anat
    ../Uranian_rings_scheme.png
    ../Voyager_spacecraft.jpg
    ../
-# Neptunus (neptune)
+```
+## Neptunus (neptune)
+```
    ../Neptune_Full.jpg
    ../The_four_sides_of_Neptune_(captured_by_the_Hubble_Space_Telescope).tif
    ../Another_Neptune_diagram.svg
@@ -198,7 +218,9 @@ Petunjuk: Semua gambar merujuk pada server Wikipedia Commons. Jadi misal ../Anat
    ../Triton_moon_mosaic_Voyager_2_(large).jpg
    ../Neptune-visible.jpg
    ../Neptunerings.jpg
-# Pluto (pluto)
+```
+## Pluto (pluto)
+```
    ../Nh-pluto-in-true-color_2x_JPEG-edit-frame.jpg
    ../Pluto-Charon_double_planet.png
    ../TheKuiperBelt_Orbits_Pluto_Polar.svg
@@ -212,21 +234,30 @@ Petunjuk: Semua gambar merujuk pada server Wikipedia Commons. Jadi misal ../Anat
    ../Nh-pluto_moons_family_portrait-truecolor.png
    ../15-011a-NewHorizons-PlutoFlyby-ArtistConcept-14July2015-20150115.jpg
    ../Pluto_encounter.png
-# Haumea (haumea)
+```
+## Haumea (haumea)
+```
    ../2003_EL61_Haumea,_with_moons.jpg
    ../TheKuiperBelt_Orbits_2003EL61.svg
    ../2003EL61art.jpg
    ../
-# Makemake (makemake)
+```
+## Makemake (makemake)
+```
    ../Makemake_hubble.png
    ../TheKuiperBelt_Orbits_2003EL61_2005FY9.svg
    ../Makemake_moon_artist's_view_with_legend.jpg
    ../Makemake_moon_Hubble_image_with_legend_(cropped).jpg
-# Eris (eris)
+```
+## Eris (eris)
+```
    ../Artist's_impression_dwarf_planet_Eris.jpg
    ../Eris_Orbit.svg
    ../Eris_and_dysnomia2.jpg
-# Sedna (sedna)
+```
+## Sedna (sedna)
+```
    ../Sedna_PRC2004-14d.jpg
    ../Sedna-NASA.JPG
    ../Sedna_orbit.svg
+```
