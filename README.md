@@ -1,10 +1,16 @@
 # Observatory
 Project hosting untuk Simulasi Alam Semesta
 
+![GitHub Logo](/Info/Screenshot.png)
+
 # Pendahuluan
-        Observasi Alam Semesta - Edisi September 2016
-               oleh M. Wildan Mubarok A.
-       Dibuat untuk memenuhi Tugas Akhir MAN Denanyar 2016-2017
+
+Observasi Alam Semesta adalah aplikasi menggunakan Unity3D untuk Simulasi Tata surya secara 1:1 baik secara ukuran maupun jarak. Sistemnya didesain secara ketat untuk menghindari efek lag karena keterbatasan dari float.
+
+
+Edisi September 2016
+oleh M. Wildan Mubarok A.
+Dibuat untuk memenuhi Tugas Akhir MAN Denanyar 2016-2017
        
 # Perihal Project Hosting
 
