@@ -27,8 +27,11 @@ public class Mode1Lookup : ModeBase
     void OnDisable ()
     {
         savedZoomValue = zoomSlider.value;
-        lookupButtons.SetActive(false);
-        curPlanet.GC<SolarOrbitRenderer>().enabled = true;
+        if (lookupButtons)
+        {
+            lookupButtons.SetActive(false);
+            curPlanet.GC<SolarOrbitRenderer>().enabled = true;
+        }
     }
 
     public void ReceivePinEvent (SolarOrbit id)

@@ -17,6 +17,7 @@ half4 LightingPlanet (SurfaceOutput s, half3 lightDir,
 
   c.rgb = (s.Albedo * _LightColor0.rgb * (diffPow + spec * 
     s.Gloss)) * (1);
+  c.a = 0;
    return c;
 }
 
