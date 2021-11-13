@@ -11,7 +11,7 @@ Observasi Alam Semesta adalah aplikasi menggunakan Unity3D untuk Simulasi Tata s
 Edisi September 2016
 oleh M. Wildan Mubarok A.
 Dibuat untuk memenuhi Tugas Akhir MAN Denanyar 2016-2017
-       
+
 # Perihal Project Hosting
 
 Disini tempat hosting project Simulasi Alam Semesta menggunakan Unity 5.5.0f3.
@@ -30,19 +30,19 @@ Semua berkas project diupload terkecuali gambar dan audio (dan akan diunggah sec
     http://solarviews.com/cap/
  - Tekstur Satelit-Satelit Planet & Ceres
     http://laps.noaa.gov/albers/
- - Satelit Gallillean: 
+ - Satelit Gallillean:
    (Menggunakan arsip di web.archive.org)
     http://www.mmedia.is/~bjj/
-  
+
 # PERSETUJUAN DAN PADA PARA DISCLAIMER
- 
+
    Dengan menggunakan aplikasi media ini, anda mengetahui,
             menyetujui, dan memastikan bahwa:
 
- - Aplikasi ini ditujukan untuk memberikan penjelasan dan 
+ - Aplikasi ini ditujukan untuk memberikan penjelasan dan
    simulasi singkat mengenai tata surya beserta seisinya
- - Bentuk dan ukuran planet pada skala 1:1 semuanya 
-   berdasarkan data faktual. namun, Semua posisi planet 
+ - Bentuk dan ukuran planet pada skala 1:1 semuanya
+   berdasarkan data faktual. namun, Semua posisi planet
    tidak berdasarkan posisi pada waktu apapun. ukuran partikel
    asteroid dan cincin Saturnus juga jauh dari keadaan nyata.
  - Tidak semua permukaan satelit terbentuk dari bentuk aslinya,
@@ -58,12 +58,12 @@ Semua berkas project diupload terkecuali gambar dan audio (dan akan diunggah sec
    mereferensi kutipan apapun didalam aplikasi ini.
    Jika harus, maka pertimbangkan untuk mengutip referensi
    yang lebih terpercaya, seperti en.wikipedia.org, dsb.
- - Tidak ada garansi atau jaminan apapun dalam penggunaan 
-   aplikasi ini. Kami tidak bertanggung jawab atas setiap 
-   kesalahpahaman maupun insiden yang terjadi akibat salah 
+ - Tidak ada garansi atau jaminan apapun dalam penggunaan
+   aplikasi ini. Kami tidak bertanggung jawab atas setiap
+   kesalahpahaman maupun insiden yang terjadi akibat salah
    penggunaan dari aplikasi ini.
- - Jangan pernah memecahbalik sumber kode, mengganti, 
-   mengunggah ulang, mendistribusi massal, membajak, 
+ - Jangan pernah memecahbalik sumber kode, mengganti,
+   mengunggah ulang, mendistribusi massal, membajak,
    dan/atau mengambil keuntungan dari aplikasi ini tanpa
    persetujuan tertulis dari penerbit aplikasi ini.
  - Kepada pemilik konten media yang digunakan dalam
@@ -71,7 +71,7 @@ Semua berkas project diupload terkecuali gambar dan audio (dan akan diunggah sec
    keluhan pada email kami secara mendetail
    dan akan kami ganti pada aplikasi versi berikutnya
  - Jika anda mempunyai kritik/saran/keluhan, kirim sepucuk
-   surat kepada wildanmubarok22@gmail.com dan kami akan
+   surat kepada willnode@wellosoft.net dan kami akan
    mencoba untuk membalas dengan segera.
 
 # LISENSI
