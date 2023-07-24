@@ -2,12 +2,13 @@
 /// Filter any shortcut that your project need. (SEE DOCS or below code)
 
 #define CORE_FEATURES
-#define EXTRA_FEATURES
+// #define EXTRA_FEATURES
 
 #if CORE_FEATURES
 #define EX_CORE
 #define EX_PHYSICS
 #define EX_UI
+#define EX_UI_LAYOUT
 #endif
 
 #if EXTRA_FEATURES
@@ -15,11 +16,11 @@
 #define EX_AUDIOFILTERS
 #define EX_COLLIDERS
 #define EX_JOINTS
+#define EX_PHYSICS2D
 #define EX_COLLIDERS2D
 #define EX_JOINTS2D
 #define EX_UI_VISUAL
 #define EX_UI_INTERACTION
-#define EX_UI_LAYOUT
 #endif
 
 using UnityEngine;
@@ -111,7 +112,9 @@ public class MonoBehaviourEX : MonoBehaviour
     [NonSerialized] private Collider _x; /// <summary> Get a Collider Component </summary>
     [DebuggerBrowsable(_NEV), EditorBrowsableAttribute(_ADV)]
     public Collider X { get { return _x ?? (_x = GetComponent<Collider>());} }
-    
+#endif
+
+#if EX_PHYSICS2D
     [NonSerialized] private Rigidbody2D _rb2d; /// <summary> Get a Rigidbody2D Component </summary>
     [DebuggerBrowsable(_NEV), EditorBrowsableAttribute(_ADV)]
     public Rigidbody2D RB2D { get { return _rb2d ?? (_rb2d = _GOAC<Rigidbody2D>());} }

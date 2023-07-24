@@ -122,6 +122,7 @@ public class CamController : MonoBehaviour
     void Start ()
     {
         camRot.x = 359f;
+        Application.targetFrameRate = 60;
     }
 
     static public readonly float preferedFOV = Mathf.Tan (35 * Mathf.Deg2Rad);
